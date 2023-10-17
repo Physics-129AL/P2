@@ -1,6 +1,0 @@
-  289  mkdir Problem_2
-  290  cd Problem_2/
-  291  nano problem2.sh
-  292  chmod +x problem2.sh 
-  293  ./problem2.sh 
-  294  history | tail -n 6 >> P2history.txt
