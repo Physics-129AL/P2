@@ -1,0 +1,795 @@
+    1  ls
+    2  mkdir bin
+    3  ls
+    4  mkdir -p home/scheng/Desktop/p1_basic_unix/{src/{graphic,exe,utilities},{test/{basic,composite},{cache/{metadata,data,images,history}}
+    5  ls
+    6  cdhome
+    7  cd home
+    8  ls
+    9  cdscheng
+   10  cd scheng
+   11  ls
+   12  cd Desktop
+   13  ls
+   14  cd p1_basic_unix
+   15  ls
+   16  cd {src
+   17  ls
+   18  cd home
+   19  cd scheng
+   20  pwd
+   21  cd
+   22  ls
+   23  rm home
+   24  rmdir home
+   25  rmdir rm -r home
+   26  rm -rhome
+   27  rm rhome
+   28  rm home
+   29  rmdir home
+   30  rmdir -r home
+   31  rm -r home
+   32  ls
+   33  mkdir home
+   34  ls
+   35  mkdir home/scheng/Desktop/p1_basic_unix/src/graphic,exe,utilities
+   36  cd home
+   37  ls
+   38  mkdir scheng/Desktop/p1_basic_unix/src/graphic,exe,utilities’: No such file or director
+   39  mkdir -p scheng/Desktop/p1_basic_unix/src
+   40  cd src
+   41  cd scheng
+   42  cd Desktop
+   43  cd p1_basic_unix
+   44  cd src
+   45  mkdir -p graphic,exe,utilities
+   46  ls src
+   47  ls
+   48  cd
+   49  rm -r home
+   50  ls
+   51  rm -r bin
+   52  ls
+   53  mkdir bin
+   54  mkdir home
+   55  ls
+   56  mkdir -p home/scheng/Desktop/p1_basic_unix/src
+   57  cd home
+   58  cdscheng
+   59  cd scheng
+   60  cd Desktop
+   61  cd p1_basic_unix
+   62  cd src
+   63  mkdir graphic exe utilities
+   64  ls
+   65  CD\p1_basic_unix
+   66  CD \p1_basic_unix
+   67  cd home/scheng
+   68  cd
+   69  cd home/scheng/Desktop
+   70  ls
+   71  rm -r home
+   72  cd
+   73  rm -r home
+   74  rm -r bin
+   75  ls
+   76  mkdir bin home
+   77  ls
+   78  mkdir home/scheng/Desktop/p1_basic_unix/src
+   79  mkdir -p home/scheng/Desktop/p1_basic_unix/src
+   80  cd home/scheng/Desktop/p1_basic_unix/src
+   81  cd
+   82  rmdir home bin
+   83  rm -r home bin
+   84  cd
+   85  ls
+   86  mkdir bin home
+   87  mkdir -p home/scheng/Desktop/p1_basic_unix/src test cache
+   88  cd home/scheng/Desktop/p1_basic_unix
+   89  ls
+   90  cd src
+   91  ls
+   92  cd
+   93  rm -r home bin
+   94  ls
+   95  rm -r cache test
+   96  ls
+   97  mkdir hhome/scheng/{cache test hi}
+   98  ls
+   99  rm -r hi}
+  100  rmdir test
+  101  ls
+  102  rmdir snap
+  103  rm -r snap
+  104  ls
+  105  mkdir bin home
+  106  mkdir -p home/scheng/Desktop/p1_basic_unix
+  107  cd home/scheng/Desktop/p1_basic_unix
+  108  mkdir src test cache
+  109  cd src
+  110  mkdir graphic exe utilities 
+  111  cd
+  112  cd home/scheng/Desktop/p1_basic_unix/test
+  113  mkdir basic composite
+  114  cd
+  115  cd home/scheng/Desktop/p1_basic_unix/cache
+  116  mkdir metadata data images history
+  117  cd data
+  118  mkdir tables directory_list
+  119  cd
+  120  cd home/scheng/Desktop/p1_basic_unix/test/basic
+  121  touch test_1.txt
+  122  touch test_2.txt
+  123  touch test_3.txt
+  124  echo My name is Shiuan Cheng and today's date is October 10, 2023 > test_1.txt
+  125  echo "My name is Shiuan Cheng and today's date is October 10, 2023" > test_1.txt
+  126  history
+  127  cat test_1.txt 
+  128  ls
+  129  cd home/scheng/Desktop/p1_basic_unix/test/basic
+  130  cat test_1.txt
+  131  cd home/scheng/Desktop/p1_basic_unix
+  132  cat test_1.txt
+  133  cd home/scheng/Desktop/p1_basic_unix/test/basic
+  134  cat tes_1.txt
+  135  cd home/scheng/Desktop/p1_basic_unix/test/basic
+  136  cat test_1.txt
+  137  ls -l
+  138  echo "total 4
+  139  -rw-rw-r-- 1 shiuan shiuan 61 Oct 10 12:39 test_1.txt
+  140  -rw-rw-r-- 1 shiuan shiuan  0 Oct 10 12:34 test_2.txt
+  141  -rw-rw-r-- 1 shiuan shiuan  0 Oct 10 12:34 test_3.txt" > test_2.txt
+  142  cd home/scheng/Desktop/p1_basic_unix/test/basic
+  143  cat test_1.txt
+  144  ls -l
+  145  chmod +x test_1.txt
+  146  ls -l >> test_2.txt
+  147  ls
+  148  wget https://zhwangs.github.io/UCSB_Physcis129L/static/docs/P1_B.tar.gz
+  149  ls
+  150  cd P1_B.tar.gz
+  151  history
+  152  cd home/scheng/Desktop/p1_basic_unix
+  153  cat P1_B.tar.gz
+  154  cd home/scheng/Desktop/p1_basic_unix
+  155  sha256sum P1_B.tar.gz
+  156  tar -xzvf P1_B.tar.gz
+  157  mv P1_B/example.sh ./p1_basic_unix/
+  158  mv P1_B/example.sh ./p1_basic_unix
+  159  ls
+  160  cd p1_basic_unix
+  161  ls
+  162  cd home/scheng/Desktop/p1_basic_unix
+  163  sha256sum P1_B.tar.gz
+  164  tar -xzvf P1_B.tar.gz
+  165  mv ~/P1_B/example.sh /p1_basic_unix/
+  166  mv ~/home/scheng/Desktop/p1_basic_unix/P1_B.tar.gz/P1_B/example.sh ~/p1_basic_unix/
+  167  ls
+  168  cd P1_B
+  169  ls
+  170  cd home/scheng/Desktop/p1_basic_unix
+  171  sha256sum p1_B.tar.gz
+  172  cd home/scheng/Desktop/p1_basic_unix
+  173  sha256sum P1_B.tar.gz
+  174  tar -xzvf P1_B.tar.gz
+  175  ls
+  176  rm P1_B.tar.gz.1
+  177  ls
+  178  rm P1_B.tar.gz.2 P1_B.tar.gz.3 P1_B.tar.gz.4 P1_B
+  179  ls
+  180  rm p1_basic_unix
+  181  ls
+  182  rm P1_B.tar.gz
+  183  ls
+  184  rmdir P1_B
+  185  rm -r P1_B
+  186  ls
+  187  cd home/scheng/Desktop/p1_basic_unix
+  188  wget https://zhwangs.github.io/UCSB_Physics129L/static/docs/P1_B.tar.gz
+  189  cd home/scheng/Desktop/p1_basic_unix
+  190  wget https://zhwangs.github.io/UCSB_Physcis129L/static/docs/P1_B.tar.gz
+  191  sha256sum P1_B.tar.gz
+  192  targ -xzvf P1_B.tar.gz
+  193  ls
+  194  rm P1_B.tar.gz
+  195  ls
+  196  cd home/scheng/Desktop/P1_basic_unix
+  197  cd home/scheng/Desktop/p1_basic_unix
+  198  wget https://zhwangs.github.io/UCSB_Physcis129L/static/docs/P1_B.tar.gz
+  199  sha256sum P1_B.tar.gz
+  200  tar -xzvf P1_B.tar.gz
+  201  /cd P1_B
+  202  ls
+  203  cd P1_B
+  204  ls
+  205  mv example.sh ./p1_basic_unix/
+  206  mv example.sh p1_basic_unix
+  207  cd home/shcheng/Desktop/p1_basic_unix
+  208  cd
+  209  cd home/scheng/Desktop/p1_basic_unix
+  210  ls
+  211  cd P1_B
+  212  ls
+  213  mv p1_basic_unix example.sh
+  214  ls
+  215  mv example.sh ./p1_basic_unix
+  216  cd
+  217  cd home/scheng/Desktop/p1_basic_unix
+  218  ls
+  219  cd P1_B
+  220  ls
+  221  mv p1_basic_unix example.sh
+  222  ls
+  223  cd
+  224  cd home/scheng/Desktop/p1_basic_unix/
+  225  ls
+  226  mv P1_B
+  227  mv P1_B/example.sh ./p1_basic_unix/
+  228  pwd
+  229  mv P1_B/example.sh ./
+  230  ls\
+  231  ls
+  232  mv example.sh P1_B/
+  233  cd P1_B
+  234  ls
+  235  cs home/scheng/Desktop/p1_basic_unix
+  236  cd home/scheng/Desktop/p1_basic_unix
+  237  ls
+  238  mv P1_B/example.sh ./
+  239  ls
+  240  mv P1_B/example1.txt P1_B/demo_1.txt
+  241  mv P1_B/example2.txt P1_B/demo_2.txt
+  242  mv P1_B/demo_1.txt src/exe/
+  243  mv P1_B/demo_2.txt cache/data/tables
+  244  rmdir P1_B
+  245  ls
+  246  cd src/exe
+  247  ls
+  248  cd ..
+  249  cd cache/data/tables
+  250  ls
+  251  cd ..
+  252  ls
+  253  ln -s src/exe/demo_1.txt demo_link
+  254  ls
+  255  alias ll="ls -l"
+  256  ll
+  257  grep "statistics" demo_1.txt
+  258  grep "statistics" src/exe/demo_1.txt
+  259  cd home/scheng/Desktop/p1_basic_unix
+  260  grep "statistics" src/exe/demo_1.txt
+  261  >> grep_stat_demo1.txt
+  262  ls
+  263  mv grep_stat_demo1.txt src/utilities
+  264  cd src/utilities
+  265  ls
+  266  cd ..
+  267  cd
+  268  find ./ -type f -name "*.txt" | xargs grep -l "statistics" | >> grep_stat_all.txt | mv grep_stat_all.txt
+  269  find ./ -type f -name "*.txt" | xargs grep -l "statistics" | >> grep_stat_all.txt | mv grep_stat_all.txt home/scheng/Desktop/p1_basic_unix/cache/images
+  270  find ./ -type f -name "*.txt" | xargs grep -l "statistics"
+  271  find ./ -type f -name "*.txt" | xargs grep -l "statistics" | xargs >> grep_stat_all.txt | xargs mv grep_stat_all.txt home/scheng/Desktop/p1_basic_unix/cache/images
+  272  touch grep_stat_all.txt | xargs find ./ -type f -name "*.txt" | xargs grep -l "statistics" | >> grep_stat_all.txt | mv grep_stat_all.txt home/scheng/Desktop/p1_basic_unix/cache/images
+  273  touch grep_stat_all.txt | xargs find ./ -type f -name "*.txt" | xargs grep -l "statistics" | xargs >> grep_stat_all.txt | xargs mv grep_stat_all.txt home/scheng/Desktop/p1_basic_unix/cache/images
+  274  cd home/scheng/Desktop/p1_basic_unix/cache/images
+  275  ls
+  276  cd ..
+  277  touch test_3.txt | xargs find ./ f -name "*.txt" | xargs >> test_3.txt
+  278  cd home/scheng/Desktop/p1_basic_unix
+  279  touch test_3.txt | xargs find f -name "*.txt" | xargs >> test_3.txt
+  280  find ./ f -name "*.txt" 
+  281  cd home/scheng/Desktop/p1_basic_unix
+  282  touch test_3.txt | xargs find ./ -type f -name "*.txt" | xargs >> test_3.txt
+  283  ls
+  284  find ./ -type f -name "*.txt" | xargs grep -l "statistics" 
+  285  find -type f -name "*.txt" | xargs grep -l "statistics" 
+  286  cd home/scheng/Desktop/p1_basic_unix
+  287  history
+  288  find home/ -type f -name "*.txt" | xargs grep -l "statistics" 
+  289  history >> P1_cmd_history.txt
+  290  ls
+  291  tar -czvf p1_basic_unix.tar.gz p1_basic_unix
+  292  tar -czvf p1_basic_unix.tar.gz ./p1_basic_unix
+  293  cd home/scheng/Desktop
+  294  tar -czvf p1_basic_unix.tar.gz ./p1_basic_unix
+  295  ls
+  296  sha256sum p1_basic_unix.tar.gz
+  297  git clone https://github.com/ShiuanCheng123/P2.git
+  298  sudo apt install git
+  299  git clone https://github.com/ShiuanCheng123/P2.git
+  300  cd P2
+  301  touch newfile.sh
+  302  vi newfile.sh
+  303  vim 
+  304  sudo apt install vim\
+  305  vim newfile.sh 
+  306  cat newfile.sh 
+  307  git add .
+  308  git commit 
+  309  history
+  310  /cd
+  311  cd
+  312  history
+  313  ls
+  314  git clone https://github.com/ShiuanCheng123/P2.git
+  315  cd P2
+  316  ls
+  317  cdProblem1
+  318  cd Problem1
+  319  ls
+  320  cd ..
+  321  rm /P2/Problem1/*
+  322  rm ./Problem1/*
+  323  rm -r ./Problem1/*
+  324  ls
+  325  cd Problem1
+  326  ls
+  327  cd ..
+  328  rm newfile.sh
+  329  ls
+  330  cd Problem1
+  331  ls
+  332  cd ..
+  333  vim file_remove.
+  334  history
+  335  ls
+  336  cd P2
+  337  ls
+  338  cd Problem1
+  339  ls
+  340  cd ..
+  341  rmdir P2
+  342  rm -r P2
+  343  ls
+  344  git clone https://github.com/ShiuanCheng123/P2.git
+  345  ls
+  346  cd P2
+  347  ls
+  348  cd Problem1
+  349  ls
+  350  cd electron_scattering_data
+  351  ls
+  352  rm /P2/Problem1
+  353  rm /P2/Problem1/
+  354  ./Problem1
+  355  rm ./Problem1
+  356  rm ./Problem1/*
+  357  cd ..
+  358  rm ./Problem1/*
+  359  cd ..
+  360  rm ./Problem1/*
+  361  cd Problem1
+  362  ls
+  363  touch file_remove.
+  364  ls
+  365  rm file_remove.
+  366  ls
+  367  vim file_remove.sh
+  368  ls
+  369  cd P2
+  370  ls
+  371  cd Problem1
+  372  ls
+  373  vim file_remover
+  374  cd file_remover
+  375  cat_filer remover
+  376  cat file_remover
+  377  ls
+  378  rm file-remover
+  379  rm -r file_remover
+  380  ls
+  381  vim file_remover.sh
+  382  chmod +x file_remover.sh
+  383  history
+  384  mkdir sacrifice
+  385  ls
+  386  cd sacrifice
+  387  touch victim.txt
+  388  touch victim_2.txt
+  389  ls
+  390  cd ..
+  391  ./bash_file.sh
+  392  ./file-remover.sh
+  393  ls
+  394  ./file_remover.sh
+  395  ls
+  396  cd file_remover.sh
+  397  vim file_remover.sh
+  398  ./file_remover.sh
+  399  vim file_remover.sh
+  400  ./file_remover.sh
+  401  vim file_remover.sh
+  402  ./ file_remover.sh
+  403  vim file_remover.sh
+  404  ./file_remover.sh
+  405  ls
+  406  cd sacrifice
+  407  ls
+  408  vim file_remover.sh
+  409  ls
+  410  rm file_remover.sh
+  411  ls
+  412  cd ..
+  413  ls
+  414  vim file_remover.sh
+  415  ./file_remover.sh
+  416  ls
+  417  sacrifice
+  418  ./file_remover.sh
+  419  vim file_remover.sh
+  420  ./file_remover.sh
+  421  ls
+  422  cd sacrifices
+  423  cd sacrifice
+  424  ls
+  425  cd ..
+  426  vim file_remover.sh
+  427  ./file_remover.sh
+  428  cd sacrifice
+  429  ls
+  430  touch mywilltolive.txt
+  431  ls
+  432  cd ..
+  433  ./file_remover.sh
+  434  cd sacrifice
+  435  ls
+  436  cd ..
+  437  rmdir sacrifice
+  438  ls
+  439  cd electron_scattering_data
+  440  ls
+  441  vim file_sorter.sh
+  442  chmod +x file_sorter.sh
+  443  ./file_sorter.sh
+  444  ls
+  445  cd electron_scattering_data
+  446  ls
+  447  cd even
+  448  ls
+  449  cd ..
+  450  ls
+  451  rmdir even odd
+  452  ls
+  453  cd ..
+  454  ls
+  455  rmdir electron_scattering_data
+  456  ls
+  457  vim file_sorter.sh
+  458  ./file_sorter.sh
+  459  ls
+  460  vim file_sorter.sh
+  461  ./file_sorter.sh
+  462  vim file_sorter.sh
+  463  ./file_sorter.sh
+  464  ls
+  465  cd electron_scattering_data
+  466  ls
+  467  cd even
+  468  ls
+  469  cd ..
+  470  cd odd
+  471  ls
+  472  cd ..
+  473  vim file_sorter.sh
+  474  ./ file_sorter.sh
+  475  ./file_sorter.sh
+  476  ls
+  477  cd electron_scattering_data
+  478  cd even
+  479  ls
+  480  cd .. cd ..
+  481  cd ..
+  482  ls
+  483  rmdir electron_scattering_data
+  484  cd electron_scattering_data
+  485  rmdir even odd
+  486  cd ..
+  487  rmdir electron_scattering_data
+  488  ls
+  489  vim file_sorter.sh
+  490  ./file_sorter.sh
+  491  ls
+  492  cd even
+  493  ls
+  494  cd ..
+  495  cd odd
+  496  ls
+  497  cd ..
+  498  ls
+  499  vim filer_sorter.sh
+  500  rm filer_sorter.sh
+  501  la
+  502  ls
+  503  vim file_sorter.sh
+  504  ./file_sorter.sh
+  505  vim file_sorter.sh
+  506  ./file_sorter.sh
+  507  ls
+  508  cd even
+  509  ls
+  510  cd odd
+  511  ls
+  512  cd ..
+  513  ls
+  514  cd ..
+  515  ls
+  516  cd electron_scattering_data
+  517  ls
+  518  cd even
+  519  ls
+  520  vim file_sorter.sh
+  521  mv even/* electron_scattering_data/
+  522  cd ..
+  523  mv even/* electron_scattering_data/
+  524  even/* ./
+  525  ls
+  526  cd even
+  527  ls
+  528  cd ..
+  529  ls
+  530  cd even
+  531  ls
+  532  cd odd
+  533  ls
+  534  cd ..
+  535  ls
+  536  cd even
+  537  vim file_sorter.sh
+  538  cd ..
+  539  mv even/* electron_scattering_data
+  540  mv even/* ./
+  541  ls
+  542  cd even
+  543  ls
+  544  cd ..
+  545  cd odd
+  546  ls
+  547  cd ..
+  548  mv odd/* ./
+  549  ls
+  550  rmdir even odd
+  551  ls
+  552  ./file_sorter.sh
+  553  ls
+  554  vim file_sorter.sh
+  555  ls
+  556  mv even/* ./
+  557  mv odd/* ./
+  558  ls
+  559  ./file_sorter.sh
+  560  ls
+  561  cd even
+  562  ls
+  563  cd ..
+  564  cd odd
+  565  ls
+  566  cd ..
+  567  ls
+  568  git add
+  569  git add .
+  570  git commit
+  571  git config --global user.email "shiuan@ucsb.edu"
+  572  git config --global user.name "ShiuanCheng123"
+  573  git commit
+  574  history
+  575  ls
+  576  cd P2
+  577  ls
+  578  cd Problem1
+  579  ls
+  580  cd electron_scattering_data
+  581  ls
+  582  cd ..
+  583  Problem_2
+  584  mkdir Problem_2
+  585  cd Problem_2
+  586  vim decimal_converter.sh
+  587  ./decimal_converter.sh
+  588  vim decimal_converter.sh
+  589  ./decimal_converter.sh
+  590  chmod +x decimal_converter.sh
+  591  ./decimal_converter.sh
+  592  vim decimal_converter
+  593  ls
+  594  rm decimal_converter
+  595  ls
+  596  vim decimal_converter
+  597  rm decimal_converter
+  598  vim decimal_converter.sh
+  599  ./decimal_converter.sh
+  600  15
+  601  ./decimal_converter.sh
+  602  vim decimal_converter.sh
+  603  ./decimal_converter.sh
+  604  36
+  605  ./decimal_converter.sh
+  606  ls
+  607  mkdir Archive_P1
+  608  ls
+  609  cd P2
+  610  ls
+  611  cd Problem1
+  612  ls
+  613  cd 
+  614  history
+  615  history >> history.txt
+  616  ls
+  617  history
+  618  ls
+  619  history
+  620  cat P1_B.tar.gz.1
+  621  cat P1_cmd.history.txt
+  622  cat P1_cmd_history.txt
+  623  rm P1_B.tar.gz.1
+  624  ls
+  625  cat P1_B.tar.gz
+  626  cat p1_basic_unix.tar.gz
+  627  cd
+  628  ls
+  629  cd P2
+  630  ls
+  631  cd Problem1
+  632  ls
+  633  cd ..
+  634  cd Problem2
+  635  cd Problem_2
+  636  ls
+  637  cd ..
+  638  ls
+  639  tar -czvf p1_basic_unix.tar.gz ./P1_cmd_history.txt
+  640  ls
+  641  mv P1_cmd_history.txt Archive_P1
+  642  ls
+  643  cd Archive_P1
+  644  ls
+  645  cd ..
+  646  tar -czvf p1_basic_unix.tar.gz ./Archive_P1
+  647  ls
+  648  cat p1_basic_unix.tar.gz
+  649  cd ..
+  650  ls
+  651  cd
+  652  ls
+  653  rm p1_basic_unix.tar.gz
+  654  ls
+  655  cd Archive_P1
+  656  ls
+  657  cd
+  658  tar -czvf p1_basic_unix.tar.gz ./Archive_P1
+  659  ls
+  660  cat p1_basic_unix.tar.gz
+  661  ls
+  662  cd Archive_P1
+  663  ls
+  664  cat P1_cmd_history.txt
+  665  ls
+  666  cd
+  667  ls
+  668  cat p1_basic_unix.tar.gz
+  669  cd
+  670  ls
+  671  cat history.txt
+  672  ls
+  673  mv p1_basic_unix.tar.gz Archive_P1
+  674  ls
+  675  mkdir Archive_P2
+  676  ls
+  677  mv history.txt Archive_P2
+  678  ls
+  679  cd Archive_P2
+  680  ls
+  681  cd
+  682  ls
+  683  tar -czvf P2 ./Archive_P2
+  684  mv P2 P_2
+  685  ls
+  686  tar -czvf P2 ./Archive_P2
+  687  ls
+  688  cat P2
+  689  cd
+  690  ls
+  691  cd Archive_P2
+  692  ls
+  693  cd
+  694  ls
+  695  rm P2
+  696  ls
+  697  tar -czvf P2.tar.gz ./Archive_P2
+  698  ls
+  699  mv P2.tar.gz Archive_P2
+  700  ls
+  701  cd Archive_P2
+  702  ls
+  703  rm P2.tar.gz
+  704  ls
+  705  mv history.txt P_2
+  706  ls
+  707  mv P_2 history.txt
+  708  ls
+  709  mv history.txt home/P_2
+  710  cd
+  711  ls
+  712  mv Archive_P2/history.txt P_2
+  713  ls
+  714  cd Archive_P2
+  715  ls
+  716  cd
+  717  ls
+  718  cd P_2
+  719  ls
+  720  cd
+  721  tar -czvf P2.tar.gz ./P_2
+  722  ls
+  723  mv P2.tar.gz Archive_P2
+  724  ls
+  725  cd Archive_P2
+  726  ls
+  727  sha256sum P2.tar.gz
+  728  echo 55b375a5150247b89efba1c09d8fdc548e1556311ac5530670f89067e16960fc > sha256sum_problem_set.txt
+  729  ls
+  730  cat sha256sum_problem_set.txt
+  731  cd
+  732  ls
+  733  cd Archive_P1
+  734  cd
+  735  ls
+  736  cd Archive_P1
+  737  ls
+  738  git init
+  739  ls
+  740  git config --global username shiuancheng
+  741  git config --global user.name shiuancheng
+  742  git config --global user.email shiuan@ucsb.edu
+  743  git checkout -b main
+  744  git add .
+  745  git commit -m "init"
+  746  git remote add origin https://github.com/ShiuanCheng123/Archive_P1.git
+  747  git push -u origin main
+  748  git credential reject
+  749  git credential fill
+  750  git credential reject
+  751  git push -u origin main
+  752  git checkout -b feature_branch
+  753  echo "hello world!" >> readme.txt
+  754  ls
+  755  git status
+  756  git add .
+  757  git status
+  758  git commit -m "new feature branch with readme file"
+  759  git push -u origin feature_branch
+  760  git credential reject
+  761  git credential fill
+  762  git push -u origin feature_branch
+  763  git log
+  764  git checkout main
+  765  git merge feature_branch
+  766  git status
+  767  git log
+  768  git push origin main
+  769  git credential reject
+  770  git credential fill
+  771  git push origin main
+  772  git fetch origin
+  773  git status
+  774  git diff main origin/main
+  775  git pull origin main
+  776  cd ..
+  777  ls
+  778  cd Archive_P1
+  779  ls
+  780  cat readme.txt
+  781  cd ..
+  782  cdArchive_P2
+  783  cd Archive_P2
+  784  ls
+  785  cat P2.tar.gz
+  786  ls
+  787  cd
+  788  ls
+  789  cd Archive_P1
+  790  ls
+  791  cd
+  792  ls
+  793  cd Archive_P2
+  794  ls
+  795  history >> history.txt
