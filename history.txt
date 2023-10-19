@@ -1,0 +1,153 @@
+    1  ls
+    2  cd Downloads/
+    3  ls
+    4  cd ../
+    5  ls
+    6  cd Desktop/
+    7  ls
+    8  history
+    9  cd ..
+   10  ls
+   11  cd annabella/
+   12  cd Desktop/
+   13  cd p1_basic_unix/
+   14  ls
+   15  cat P1_cmd_history.txt 
+   16  l
+   17  ls
+   18  cd Desktop
+   19  ls
+   20  mkdir p2
+   21  cd p2
+   22  git clone https://github.com/AnnabellaYang/P2
+   23  sudo apt install git
+   24  git clone https://github.com/AnnabellaYang/P2/
+   25  ls
+   26  cd P2
+   27  ls
+   28  cd Problem 1
+   29  cd Problem1
+   30  ls
+   31  rm *.bin
+   32  ls
+   33  cd ..
+   34  vi file_remove.sh
+   35  ls
+   36  cd Problem1/electron_scattering_data/
+   37  mkdir odd
+   38  mkdir even
+   39  ls
+   40  vi even_odd.sh
+   41  vi even_odd.sh 
+   42  vi even_odd.sh
+   43  ls
+   44  vi even_odd.sh
+   45  chmod +x even_odd.sh 
+   46  ./even_odd.sh 
+   47  ls
+   48  cd even
+   49  ls
+   50  cd ..
+   51  ./even_odd.sh
+   52  vi even_odd.sh 
+   53  ./even_odd.sh 
+   54  vi even_odd.sh 
+   55  ./even_odd.sh 
+   56  ls
+   57  cd even
+   58  ls
+   59  cd ..
+   60  mkdir Problem2
+   61  ls
+   62  ./file_remove.sh
+   63  vi file_remove.sh 
+   64  ./file_remove.sh
+   65  chmod +x file_remove.sh 
+   66  ./file_remove.sh 
+   67  file_remove Problem2
+   68  vi file_remove.sh 
+   69  rm file_remove.sh 
+   70  vi file_remove.sh
+   71  ./file_remove.sh
+   72  chmod +x file_remove.sh 
+   73  ./file_remove.sh
+   74  file_remove Problem2
+   75  vi file_remove.sh 
+   76  ./file_remove.sh
+   77  file_remove Problem2
+   78  vi file_remove.sh 
+   79  cd Problem
+   80  cd Problem2
+   81  ls
+   82  vi converter.sh
+   83  chmod +x converter.sh 
+   84  converter.sh 356
+   85  ./converter.sh 356
+   86  ./converter.sh 2398
+   87  ./converter.sh2
+   88  ./converter.sh 2
+   89  vi converter.sh
+   90  ./converter.sh 2
+   91  ./converter.sh
+   92  cd ../..
+   93  ls
+   94  mkdir Archive_P1
+   95  ls
+   96  cd Archive_P1/
+   97  git init
+   98  git config --global user.name AnnabellaYang
+   99  git config --global user.email ajiayangyang2002@gmail.com
+  100  git checkout -b main
+  101  cp ../../p1_basic_unix/p1_basic_unix.tar.gz  ./
+  102  ls
+  103  git add p1_basic_unix.tar.gz 
+  104  git commit -m "init; add the p1_basic_unix.tar.gz file"
+  105  vi ../../token.txt
+  106  echo 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
+  107  git remote add origin https://github.com/AnnabellaYang/p1_basic_unix.tar.gz.git
+  108  git push -u origin main
+  109  echo "# p1_basic_unix.tar.gz" >> README.md
+  110  git init
+  111  git add README.md
+  112  git branch -M main
+  113  git remote add origin https://github.com/AnnabellaYang/p1_basic_unix.tar.gz.git
+  114  git push -u origin main
+  115  git checkout -b feature_branch
+  116  echo "hello world!" > README.md
+  117  git add README.md
+  118  git commit -m "add readme.md to the feature branch"
+  119  git push origin feature_branch
+  120  git checkout main
+  121  git merge feature_branch
+  122  git push origin main
+  123  ls
+  124  git checkout main
+  125  git pull origin main
+  126  cat README.md
+  127  cd ..
+  128  cd P2/
+  129  history
+  130  ls
+  131  ./file_remove
+  132  ./file_remove.sh
+  133  mkdir test
+  134  cd test
+  135  echo "test" > 'test.txt'
+  136  ls
+  137  cd ..
+  138  file_remove test
+  139  ./file_remove.sh 
+  140  file_remove test
+  141  vi file_remove.sh
+  142  chmod +x file_remove.sh 
+  143  ./file_remove.sh 
+  144  file_remove test
+  145  ./file_remove.sh test
+  146  ls
+  147  cd test
+  148  ls
+  149  cd ..
+  150  ls
+  151  source file_remove.sh 
+  152  file_remove test
+  153  history >> history.txt
