@@ -1,0 +1,174 @@
+﻿git clone https://github.com/ChuanleYu/P2.git
+
+find ./P2/Problem1 -type d -name electron_scattering_data -prune -o -type f -name "*.bin" -exec rm {} \;
+
+
+#!/bin/bash
+
+file_remove() {
+
+path="$1"
+
+  find "$path" -type f -name "*.bin" -exec rm {} +
+}
+
+#!/bin/bash
+
+# Set the directory where your files are located
+directory="P2/Problem1/electron_scattering_data"
+
+# Create two separate directories for even and odd files
+mkdir "$directory/even_files"
+mkdir "$directory/odd_files"
+
+# Counter for numbering the files
+count=1
+
+# Loop through the files in the directory
+for file in "$directory"/*; do
+    # Check if the item is a file
+    if [ -f "$file" ]; then
+        # Determine if the current file number is even or odd
+        if ((count % 2 == 0)); then
+            # Move even-numbered file to the even_files folder
+            mv "$file" "$directory/even_files"
+        else
+            # Move odd-numbered file to the odd_files folder
+            mv "$file" "$directory/odd_files"
+        fi
+        count=$((count+1))
+    fi
+done
+
+
+
+
+
+
+
+#!/bin/bash
+decimal_to_binary_hex() {
+    number=$1
+    binary=""
+    hex=""
+
+    if [[ $number -lt 1 || $number -gt 100000 ]]; then
+        echo "Please enter a positive integer between 1 and 100,000."
+   
+    fi
+
+    while [[ $number -gt 0 ]]; do
+        remainder=$((number % 2))
+        binary="${binary}${remainder}"
+        number=$((number / 2))
+    done
+
+    reversed_binary=$(echo $binary | rev)
+
+    number=$1
+    while [[ $number -gt 0 ]]; do
+        remainder=$((number % 16))
+        case $remainder in
+            10) remainder="A" ;;
+            11) remainder="B" ;;
+            12) remainder="C" ;;
+            13) remainder="D" ;;
+            14) remainder="E" ;;
+            15) remainder="F" ;;
+        esac
+        hex="${hex}${remainder}"
+        number=$((number / 16))
+    done
+
+    reversed_hex=$(echo $hex | rev)
+    echo "Binary representation: $reversed_binary"
+    echo "Hexadecimal representation: $reversed_hex"
+}
+
+read -p "Enter a decimal number (limited to 100,000): " input
+decimal_to_binary_hex $input
+
+
+
+
+
+
+
+
+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
+mkdir Archive_P1
+mv p1_basic_unix.tar.gz Archive_P1
+cd Archive_P1
+
+git init
+# Set your Git configuration
+git config --global user.name "ChuanleYu"
+git config --global user.email "chuanle@ucsb.edu"
+
+# Create and switch to a new branch
+git checkout -b HW2P3
+git add .
+git commit -m "Add hw1"
+# Add a remote repository (assuming "origin" is your GitHub repository)
+git remote add origin https://github.com/ChuanleYu/HW2P3.git
+git push -u origin HW2P3
+
+
+git init
+
+# Set your Git configuration
+git config --global user.name "ChuanleYu"
+git config --global user.email "chuanle@ucsb.edu"
+
+# Create and switch to a new branch
+git checkout -b feature_branch
+
+# Create a readme file with "hello world!"
+echo "hello world!" > readme.md
+
+# Stage the changes
+git add readme.md
+
+# Commit the changes
+git commit -m "Add readme file with hello world text"
+
+# Add a remote repository (assuming "origin" is your GitHub repository)
+git remote add origin https://github.com/ChuanleYu/feature_branch.git
+
+# Push to the feature_branch
+git push -u origin feature_branch
+
+# Switch to the main branch
+git checkout feature_branch
+
+# Merge feature_branch into the main branch
+git merge feature_branch
+
+# Push the changes to the remote main branch
+git push origin feature_branch
+
+# Pull the latest changes from the remote
+git pull origin feature_branch
+
+mkdir Archive_HW2
+mv 129hw2.txt Archive_HW2
+mv P2.tar.gz Archive_HW2
+cd Archive_HW2
+
+git init
+# Set your Git configuration
+git config --global user.name "ChuanleYu"
+git config --global user.email "chuanle@ucsb.edu"
+
+# Create and switch to a new branch
+git checkout -b HW2
+git add .
+git commit -m "Add hw1"
+# Add a remote repository (assuming "origin" is your GitHub repository)
+git remote add origin https://github.com/ChuanleYu/HW2.git
+git push -u origin HW2
+
+
+
+
+
