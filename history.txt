@@ -1,0 +1,575 @@
+    1  mkdir P129_data
+    2  ls
+    3  cd P129_data/
+    4  echo hello world!
+    5  echo hello world! > hello_world.txt
+    6  ls
+    7  cat hello_world.txt 
+    8  echo hello world! >> hello_word.txt
+    9  cat hello_wor
+   10  cat hello_word.txt
+   11  echo a second hello to the world! >> hello_word.txt
+   12  cat hello_word.txt
+   13  echo a new hello to the world! > hello_world.txt
+   14  cat hello_word.txt
+   15  echo a new hello to the world! > hello_world.txt
+   16  cat hello_word.txt
+   17  echo a new hello to the world! >hello_world.txt
+   18  cat hello_word.txt
+   19  echo a new hello to the world!
+   20  echo a new hello to the world! > hello_world.txt
+   21  cat hello_world.txt
+   22  ls
+   23  rm hello_word.txt
+   24  echo hello world! >
+   25  echo hello world! > test.txt
+   26  cd P129_data/
+   27  ls -l
+   28  ls ./
+   29  ls ./ > ls_out.txt 2 > ls_error.txt
+   30  ls
+   31  cat ls_error.txt 
+   32  cat ls-out.txt
+   33  cat ls_out.txt
+   34  ls ./ > ls_out.txt
+   35  cat ls_out.txt
+   36  rm ls_error.txt
+   37  ls ./ > ls_out.txt 2> ls_error.txt
+   38  ls
+   39  cat ls_error.txt
+   40  ls ./incorrect_dr > ls_out_incorrect.txt 2>ls_error_incorrect.txt
+   41  rm test.txt
+   42  cat ./
+   43  cat ls_error
+   44  cat ls_error.txt
+   45  cat ls_error_incorrect.txt 
+   46  grep "world" ./
+   47  grep -r "world" ./
+   48  grep -rl "world" ./
+   49  ls
+   50  mkdir lecture_1
+   51  ls
+   52  grep -r ./
+   53  mv hello_world.txt lecture_1/
+   54  mv ./ lecture_1/
+   55  grep "*.txt"
+   56  grep "*.txt" ./
+   57  grep -r "*.txt" ./
+   58  find ./ -type f -name "*.txt"
+   59  find ./ -type f -name "*.txt" | xargs -I '{}' mv '{}' lecture_1
+   60  ls
+   61  cd lecture_1/
+   62  ls
+   63  cd ..
+   64  mk_dir p1_basic_unix
+   65  cd ..
+   66  mkdir p1_basic_unix
+   67  ls
+   68  cd p1_basic_unix/
+   69  ls
+   70  mkdir -p test/{1, 2, 3}
+   71  ls
+   72  cd test/
+   73  mkdir -p test/{1,2,3}
+   74  ls
+   75  cd test/
+   76  ls
+   77  cd ..
+   78  rmdir {1
+   79  rmdir {1,
+   80  ls
+   81  rmdir test
+   82  rmdir -rf test
+   83  rmdir -f test
+   84  ls
+   85  rm -rf test
+   86  ls
+   87  mkdir p1_basic_unix
+   88  ls
+   89  cd p1_basic_unix/
+   90  mkdir -p /src/{graphic,exe,utilities}
+   91  ls
+   92  mkdir -p src/{graphic,exe,utilities}
+   93  ls
+   94  cd src
+   95  ls
+   96  cd ..
+   97  ls
+   98  mkdir -p test/{basic,composite} cache/{metadata,data,images,history}
+   99  ls
+  100  cd cache/
+  101  ls
+  102  cd data/
+  103  ls
+  104  mkdir tables directory_list
+  105  ls
+  106  cd ..
+  107  find .
+  108  ls
+  109  cd test/basic/
+  110  touch test_1.txt test_2.txt test_3.txt
+  111  ls
+  112  echo "Brandon Oct 12"
+  113  echo "Brandon Oct 12" > test_1.txt
+  114  cat test_1.txt
+  115  ls -l
+  116  ls -l > test_2.txt
+  117  ls
+  118  cat test_2.txt
+  119  ls -l text_1.txt
+  120  ls -l test_1.txt 
+  121  ls -l test_1.txt > test_2.txt
+  122  chmod +x test_1.txt 
+  123  test_1.txt
+  124  ls
+  125  ./test_1.txt 
+  126  cat test_1.txt 
+  127  ls -l >> test_2.txt
+  128  cat test_2.txt 
+  129  history
+  130  history | tail -n 50
+  131  history | tail -n 45
+  132  cd ...
+  133  cd ..
+  134  history | tail -n 48
+  135  history | tail -n  >> P1_cmd_history.txt
+  136  ls
+  137  cat P1_cmd_history.txt 
+  138  history | tail -n 55
+  139  history | tail -n 53
+  140  history | tail -n 54 > P1_cmd_history.txt 
+  141  cat P1_cmd_history.txt 
+  142  ls
+  143  cd ..
+  144  ls
+  145  cd Downloads
+  146  ls
+  147  cd ..
+  148  cd Desktop
+  149  ls
+  150  cd usr/
+  151  ls
+  152  cd ..
+  153  cd p1_basic_unix/
+  154  wget https://zhwangs.github.io/UCSB_Physcis129L/static/docs/P1_B.tar.gz
+  155  ls
+  156  sha256sum
+  157  sha256sum P1_B.tar.gz 
+  158  tar P1_B.tar.gz
+  159  tar -xzgf P1_B.tar.gz 
+  160  tar -xzvf P1_B.tar.gz 
+  161  ls
+  162  cd P1_B/
+  163  ls
+  164  mv
+  165  mv example.sh ../
+  166  ls
+  167  cd ..
+  168  ls
+  169  cd P1_B/
+  170  mv example_1.txt demo_1.txt
+  171  mv example1.txt demo_1.txt
+  172  mv example2.txt demo_2.txt
+  173  ls
+  174  cd ..
+  175  mv P1_B/demo_1.txt src/exe
+  176  mv P1_B/demo_2.txt cache/data/tables
+  177  ls
+  178  cd P1_B
+  179  ls
+  180  cd ..
+  181  cd src/exe
+  182  ls
+  183  cd ..
+  184  cd cache/data/tables/
+  185  ls
+  186  cd ..
+  187  rmdir P1_B
+  188  ls
+  189  ln -s src/exe/demo_1.txt demo_link
+  190  ls
+  191  cat demo_link 
+  192  alis ll "ls -l"
+  193  alias ll "ls -l"
+  194  ll
+  195  history
+  196  tail -n 10
+  197  history | tail -n 56
+  198  history | tail -n 58 >> P1_cmd_history.txt 
+  199  cat P1_cmd_history.txt 
+  200  cd ..
+  201  cd p1_basic_unix/
+  202  grep "statistics" src/exe/example_1.txt
+  203  ls src/exe
+  204  grep "statistics" src/exe/demo_1.txt 
+  205  grep "statistics" .
+  206  grep "statistics" /
+  207  grep -r "statistics" .
+  208  echo | grep -r "statistics" .
+  209  grep -r "statistics" > cache/images/grep_stat_all.txt
+  210  ls
+  211  ls cache/images/
+  212  cat cache/images/grep_stat_all.txt 
+  213  find -name "*.txt"
+  214  find -name "*.txt" > test/basic/test_3.txt 
+  215  cat test/basic/test_3.txt 
+  216  find -name "*.txt" | xargs grep "statistics"
+  217  history
+  218  history > ../P1_commands.txt
+  219  history
+  220  git log
+  221  cd ..
+  222  rm P2
+  223  rmdir P2
+  224  rmdir -f P2
+  225  rm -r P2
+  226  ls
+  227  rmdir P2
+  228  git clone git@github.com:Physics-129AL/P2.git
+  229  ls
+  230  cd P2
+  231  ls
+  232  ls Problem1
+  233  find -name "electron_scattering_*"
+  234  find -name "electron_scattering_*" -depth 1
+  235  find -name "electron_scattering_*" -max-depth 1
+  236  find -name "electron_scattering_*" -max_depth 1
+  237  find -name "electron_scattering_*" -maxdepth 1
+  238  find -maxdepth 1 -name "electron_scattering_*"
+  239  find -maxdepth 2 -name "electron_scattering_*"
+  240* 
+  241  find ./Problem1 -maxdepth 1 -name "electron_scattering_*"
+  242  find ./Problem1 -maxdepth 1 -name "electron_scattering_*" | xargs rm
+  243  find ./Problem1 -maxdepth 1 -name "electron_scattering_*.bin" | xargs rm
+  244  ls
+  245  cd Problem1/
+  246  ls
+  247  cd ..
+  248  ls Problem1/electron_scattering_data/
+  249  find ./Problem1 -maxdepth 1 -name "electron_scattering_*.bin" | xargs rm
+  250  nano'
+  251  vim
+  252  vscode
+  253  nano file_remove.sh
+  254  file_remove.sh
+  255  ls
+  256  file_remove.sh Problem1
+  257  nano file_remove.sh
+  258  find target_directory -maxdepth 1 -name "electron_scattering_*.bin" | xargs rm
+  259  history
+  260  nano file_remove.sh 
+  261  file_remove.sh
+  262  naon file_remove.sh
+  263  nano file_remove.sh
+  264  file_remove.sh
+  265  nano file_remove.sh
+  266  file_remove.sh
+  267  nano file_remove.sh
+  268  file_remove.sh
+  269  file_remove.sh test
+  270  nano file_remove.sh
+  271  file_remove.sh test
+  272  ls
+  273  file_remove.sh ./Problem1
+  274  chmod +x file_remove.sh 
+  275  file_remove.sh ./Problem1
+  276  file_remove
+  277* 
+  278  ./file_remove.sh ./Problem1
+  279  ls Problem1/
+  280  ls Problem1/electron_scattering_data/
+  281  touch Problem1/electron_scattering_1.bin
+  282  ./file_remove.sh ./Problem1
+  283  ls ./Problem1/
+  284  touch Problem1/electron_scattering_1.bin
+  285  ls ./Problem1/
+  286  ./file_remove.sh ./Problem1
+  287  nano file_remove.sh 
+  288  ./file_remove.sh ./Problem1
+  289  file_remove
+  290  nano file_remove.sh 
+  291  ./file_remove.sh
+  292  file_remove
+  293  alias file_remove='ls'
+  294  file_remove
+  295  nano file_remove.sh 
+  296  ./file_remove.sh 
+  297  ./file_remove.sh test
+  298  file_remove
+  299  ./file_remove.sh Problem1
+  300  file_remove
+  301  ls Problem1/
+  302  ls Problem1/electron_scattering_data/
+  303  ls
+  304  ls Problem1/
+  305  touch Problem1/electron_scattering_1.bin
+  306  ls Problem1/
+  307  ./file_remove.sh ./Problem1
+  308  file_remove
+  309  ls Problem1/
+  310  nano file_remove.sh 
+  311  nano file_remove.sh
+  312  ./file_remove.sh Problem1
+  313  file_remove
+  314  ls Problem1/
+  315  nano file_remove.sh
+  316  ./file_remove.sh Problem1
+  317  nano file_remove.sh
+  318  ./file_remove.sh Problem1
+  319  file_remove
+  320* 
+  321  ./file_remove.sh
+  322* ./file_remove.sh
+  323  test
+  324  ./file_remove.sh a
+  325  nano file_remove.sh 
+  326  ./file_remove.sh a
+  327  test
+  328  file_remove
+  329  nano file_remove.sh 
+  330  alias
+  331  alias file_remove="./file_remove.sh'
+  332  ls
+  333  file_remove
+  334  alias file_remove='./file_remove.sh'
+  335  nano file_remove.sh
+  336  ls Problem1
+  337  file_remove Problem1
+  338  ls Problem1
+  339  history
+  340  cd ./Problem1/electron_scattering_data/
+  341  nano sort_odd_even.sh
+  342  ls
+  343  chmod +x sort_odd_even.sh 
+  344  ls
+  345  ./sort_odd_even.sh 
+  346  nano sort_odd_even.sh 
+  347  ./sort_odd_even.sh 
+  348  nano sort_odd_even.sh 
+  349  ./sort_odd_even.sh 
+  350  nano sort_odd_even.sh 
+  351  ./sort_odd_even.sh 
+  352  nano sort_odd_even.sh 
+  353  ./sort_odd_even.sh 
+  354  nano sort_odd_even.sh 
+  355  ./sort_odd_even.sh 
+  356  grep -oE '[0-9]'
+  357  grep -oE '[0-9]' test123 | tail -1
+  358  grep -oE '[0-9]' test123 | tail -n 1
+  359  grep -oE '[0-9]' 'test123' | tail -n 1
+  360  grep -oE '[0-9]+' "test123" | tail -n 1
+  361  ls
+  362  nano sort_odd_even.sh 
+  363  ./sort_odd_even.sh 
+  364  ls
+  365  cd even/
+  366  ls
+  367  cd ..
+  368  ls
+  369  cd odd/
+  370  ls
+  371  cd ..
+  372  ls
+  373  cd ..
+  374  ls
+  375  mkdir Problem2
+  376  ls
+  377  cd Problem
+  378  cd Problem2/
+  379  ls
+  380  nano convert_decimal.sh
+  381  chmod +x ./convert_decimal.sh 
+  382  ls
+  383  ./convert_decimal.sh 
+  384  nano convert_decimal.sh
+  385  ./convert_decimal.sh 
+  386  nano convert_decimal.sh
+  387  ./convert_decimal.sh 
+  388  nano convert_decimal.sh
+  389  ./convert_decimal.sh 
+  390  nano convert_decimal.sh
+  391  ./convert_decimal.sh 
+  392  nano convert_decimal.sh
+  393  ./convert_decimal.sh 
+  394  nano convert_decimal.sh
+  395  ./convert_decimal.sh 
+  396  nano convert_decimal.sh
+  397  ./convert_decimal.sh 
+  398  nano convert_decimal.sh
+  399  ./convert_decimal.sh 
+  400  nano convert_decimal.sh
+  401  ./convert_decimal.sh 
+  402  nano convert_decimal.sh
+  403  ./convert_decimal.sh 
+  404  nano convert_decimal.sh
+  405  ./convert_decimal.sh 
+  406  nano convert_decimal.sh
+  407  ./convert_decimal.sh 
+  408  nano convert_decimal.sh
+  409  ./convert_decimal.sh 
+  410  nano convert_decimal.sh
+  411  ./convert_decimal.sh 
+  412  nano convert_decimal.sh
+  413  ./convert_decimal.sh 
+  414  nano convert_decimal.sh
+  415  ./convert_decimal.sh 
+  416  nano convert_decimal.sh
+  417  ./convert_decimal.sh 
+  418  nano convert_decimal.sh
+  419  ./convert_decimal.sh 
+  420  nano convert_decimal.sh
+  421  ./convert_decimal.sh 
+  422  nano convert_decimal.sh
+  423  ./convert_decimal.sh 
+  424  nano convert_decimal.sh
+  425  ./convert_decimal.sh 
+  426  nano convert_decimal.sh
+  427  ./convert_decimal.sh 
+  428  nano convert_decimal.sh
+  429  ./convert_decimal.sh 
+  430  nano convert_decimal.sh
+  431  ./convert_decimal.sh 
+  432  nano convert_decimal.sh
+  433  ./convert_decimal.sh 
+  434  nano convert_decimal.sh
+  435  ./convert_decimal.sh 
+  436  nano convert_decimal.sh
+  437  ./convert_decimal.sh 
+  438  nano convert_decimal.sh
+  439  ./convert_decimal.sh 
+  440  nano convert_decimal.sh
+  441  ./convert_decimal.sh 
+  442  nano convert_decimal.sh
+  443  ./convert_decimal.sh 
+  444  nano convert_decimal.sh
+  445  ./convert_decimal.sh 
+  446  nano convert_decimal.sh
+  447  ./convert_decimal.sh 
+  448  nano convert_decimal.sh
+  449  ./convert_decimal.sh 
+  450  nano convert_decimal.sh
+  451  ./convert_decimal.sh 
+  452  nano convert_decimal.sh
+  453  ./convert_decimal.sh 
+  454  nano convert_decimal.sh
+  455  ./convert_decimal.sh 
+  456  nano convert_decimal.sh
+  457  ./convert_decimal.sh 
+  458  nano convert_decimal.sh
+  459  ./convert_decimal.sh 
+  460  nano convert_decimal.sh
+  461  ./convert_decimal.sh 
+  462  nano convert_decimal.sh
+  463  ./convert_decimal.sh 
+  464  nano convert_decimal.sh
+  465  ./convert_decimal.sh 
+  466  nano convert_decimal.sh
+  467  ./convert_decimal.sh 
+  468  nano convert_decimal.sh
+  469  ./convert_decimal.sh 
+  470  nano convert_decimal.sh
+  471  ./convert_decimal.sh 
+  472  nano convert_decimal.sh
+  473  ./convert_decimal.sh 
+  474  nano convert_decimal.sh
+  475  ./convert_decimal.sh 
+  476  nano convert_decimal.sh
+  477  ./convert_decimal.sh 
+  478  nano convert_decimal.sh
+  479  ./convert_decimal.sh 
+  480  nano convert_decimal.sh
+  481  ./convert_decimal.sh 
+  482  nano convert_decimal.sh
+  483  ./convert_decimal.sh 
+  484  nano convert_decimal.sh
+  485  ./convert_decimal.sh 
+  486  nano convert_decimal.sh
+  487  ./convert_decimal.sh 
+  488  nano convert_decimal.sh
+  489  ./convert_decimal.sh 
+  490  nano convert_decimal.sh
+  491  ./convert_decimal.sh 
+  492  nano convert_decimal.sh
+  493  ./convert_decimal.sh 
+  494  nano convert_decimal.sh
+  495  ./convert_decimal.sh 
+  496  nano convert_decimal.sh
+  497  ./convert_decimal.sh 
+  498  nano convert_decimal.sh
+  499  ./convert_decimal.sh 
+  500  nano convert_decimal.sh
+  501  ./convert_decimal.sh 
+  502  nano convert_decimal.sh
+  503  ./convert_decimal.sh 
+  504  nano convert_decimal.sh
+  505  ./convert_decimal.sh 
+  506  nano convert_decimal.sh
+  507  ./convert_decimal.sh 1
+  508  ./convert_decimal.sh 
+  509  nano convert_decimal.sh
+  510  ./convert_decimal.sh 
+  511  nano convert_decimal.sh
+  512  ./convert_decimal.sh 1
+  513  nano convert_decimal.sh
+  514  ./convert_decimal.sh 2
+  515  nano convert_decimal.sh
+  516  ./convert_decimal.sh 2
+  517  ./convert_decimal.sh 16
+  518  ./convert_decimal.sh 2
+  519  nano convert_decimal.sh
+  520  ./convert_decimal.sh 2
+  521  nano convert_decimal.sh
+  522  ./convert_decimal.sh 2
+  523  nano convert_decimal.sh
+  524  ./convert_decimal.sh 2
+  525  nano convert_decimal.sh
+  526  ./convert_decimal.sh 2
+  527  nano convert_decimal.sh
+  528  ./convert_decimal.sh 2
+  529  nano convert_decimal.sh
+  530  ./convert_decimal.sh 2
+  531  ./convert_decimal.sh 1000
+  532  nano convert_decimal.sh
+  533  ./convert_decimal.sh 1000
+  534  history
+  535  cd ..
+  536  mkdir Archive_P1
+  537  ls
+  538  cd Archive_P1/
+  539  git init
+  540  cd ..
+  541  ls
+  542  cp p1_basic_unix.tar.gz Archive_P1/
+  543  ls
+  544  cd Archive_P1/
+  545  ls
+  546  git branch -m main
+  547  ls
+  548  git status
+  549  git add .
+  550  git commit -m 'Initial commit'
+  551  git push
+  552  git remote add main git@github.com:brandonhieunguyen/Archive_1.git
+  553  git push
+  554  git push main
+  555  git checkout -b feature_branch
+  556  echo "hello world!" > README.md
+  557  git add .
+  558  git commit -m 'hello world!'
+  559  git push
+  560  git push feature_branch
+  561  git push -u main feature_branch
+  562  git pull
+  563  cat README.md 
+  564  cd ..
+  565  ls
+  566  cd P2
+  567  git init
+  568  rm -rf .git
+  569  ls
+  570  git log
+  571  cd ..
+  572  ls
+  573  cd P2/
+  574  ls
+  575  history > history.txt
