@@ -1,0 +1,200 @@
+  123  nano ~/.bashrc
+  124  cd Desktop
+  125  cd P2
+  126  nano bash_scripts.sh
+  127  rm bash_scripts.sh
+  128  nano P2_bash_scripts.sh
+  129  chmod u+x hellow_world.sh
+  130  chmod u+x hello_world.sh
+  131  chmod u+x P2_bash_scripts.sh
+  132  ./P2_bash_scripts.sh
+  133  nano P2_bash_scripts.sh
+  134  tree
+  135  nano P2_bash_scripts.sh
+  136  ./P2_bash_scripts.sh
+  137  nano P2_bash_scripts.sh
+  138  ./P2_bash_scripts.sh
+  139  nano P2_bash_scripts.sh
+  140  ./P2_bash_scripts.sh
+  141  nano P2_bash_scripts.sh
+  142  ./P2_bash_scripts.sh
+  143  nano P2_bash_scripts.sh
+  144  ./P2_bash_scripts.sh
+  145  tree
+  146  ./P2_bash_scripts.sh
+  147  nano P2_bash_scripts.sh
+  148  ./P2_bash_scripts.sh
+  149  tree
+  150  ./P2_bash_scripts.sh
+  151  nano P2_bash_scripts.sh
+  152  ./P2_bash_scripts.sh
+  153  cd ...
+  154  cd ..
+  155  rm -rf P2
+  156  tree
+  157  git clone https://github.com/commanderhoi/P2.git
+  158  lll
+  159  remove_file ~/Desktop/P2/Problem1
+  160  tree
+  161  ./P2_bash_scripts.sh
+  162  nano /P2_bash_scripts.sh
+  163  ls
+  164  cd P2
+  165  ls
+  166  nano ~/.P2_bash_scripts.sh
+  167  ./.P2_bash_scripts.sh
+  168  ./P2_bash_scripts.sh
+  169  nano ~/.P2_bash_scripts.sh
+  170  nano home/ubuntu/.P2_bash_scripts.sh
+  171  nano ~/.P2_bash_scripts.sh
+  172  ./home/ubuntu/.P2_bash_scripts.sh
+  173  cd ..
+  174  ./.P2_bash_scripts.sh
+  175  chmod +x ~/.P2_bash_scripts.sh
+  176  ./.P2_bash_scripts.sh
+  177  tree
+  178  nano /.bash_script.sh
+  179  /Desktop
+  180  cd Desktop
+  181  cd P2
+  182  nano /.bash_script.sh
+  183  nano ~/.bash_script.sh
+  184  nano ~/.bash_scripts.sh
+  185  ls
+  186  cd ..
+  187  ls
+  188  cd ..
+  189  ls
+  190  nano ~/.P2_bash_scripts.sh
+  191  cd Desktop
+  192  cd P2
+  193  tree
+  194  nano ~/.P2_bash_scripts.sh
+  195  nano ~/.P2_bash_scripts_1.sh
+  196  nano ~/.P2_bash_scripts.sh
+  197  [A
+  198  nano ~/.P2_bash_scripts.sh
+  199  ./.P2_bash_sctipts.sh
+  200  ./.P2_bash_scripts.sh
+  201  .~/.P2_bash_scripts.sh
+  202  cd ..
+  203  .~/.P2_bash_scripts.sh
+  204  nano ~/.P2_bash_scripts.sh
+  205  ./.P2_bash_scripts.sh
+  206  nano /.P2_bash_scripts.sh
+  207  nano ~/.P2_bash_scripts.sh
+  208  ./.P2_bash_scripts.sh
+  209  nano ~/.P2_bash_scripts.sh
+  210  ./.P2_bash_scripts.sh
+  211  nano ~/.P2_bash_scripts.sh
+  212  ./.P2_bash_scripts.sh
+  213  nano ~/.P2_bash_scripts.sh
+  214  ./.P2_bash_scripts.sh
+  215  nano ~/.P2_bash_scripts.sh
+  216  ./.P2_bash_scripts.sh
+  217  nano ~/.P2_bash_scripts.sh
+  218  ./.P2_bash_scripts.sh
+  219  nano ~/.P2_bash_scripts.sh
+  220  ./.P2_bash_scripts.sh
+  221  nano ~/.P2_bash_scripts.sh
+  222  ./.P2_bash_scripts.sh
+  223  nano ~/.P2_bash_scripts.sh
+  224  ./.P2_bash_scripts.sh
+  225  nano ~/.P2_bash_scripts.sh
+  226  ./.P2_bash_scripts.sh
+  227  nano ~/.P2_bash_scripts.sh
+  228  ./.P2_bash_scripts.sh
+  229  nano ~/.P2_bash_scripts.sh
+  230  ./.P2_bash_scripts.sh
+  231  nano ~/.P2_bash_scripts.sh
+  232  ./.P2_bash_scripts.sh
+  233  nano ~/.P2_bash_scripts.sh
+  234  ./.P2_bash_scripts.sh
+  235  nano ~/.P2_bash_scripts.sh
+  236  ./.P2_bash_scripts.sh
+  237  nano ~/.P2_bash_scripts.sh
+  238  ./.P2_bash_scripts.sh
+  239  nano ~/.P2_bash_scripts.sh
+  240  ./.P2_bash_scripts.sh
+  241  nano ~/.P2_bash_scripts.sh
+  242  ./.P2_bash_scripts.sh
+  243  nano ~/.P2_bash_scripts.sh
+  244  ./.P2_bash_scripts.sh
+  245  nano ~/.P2_bash_scripts.sh
+  246  ./.P2_bash_scripts.sh
+  247  nano ~/.P2_bash_scripts.sh
+  248  ./.P2_bash_scripts.sh
+  249  nano ~/.P2_bash_scripts.sh
+  250  ./.P2_bash_scripts.sh
+  251  nano ~/.P2_bash_scripts.sh
+  252  ./.P2_bash_scripts.sh
+  253  tree
+  254  ./.P2_bash_scripts.sh
+  255  nano ~/.P2_bash_scripts.sh
+  256  ./.P2_bash_scripts.sh
+  257  nano ~/.P2_bash_scripts.sh
+  258  ./.P2_bash_scripts.sh
+  259  nano ~/.P2_bash_scripts.sh
+  260  ./.P2_bash_scripts.sh
+  261  tree
+  262  nano ~/.P2_bash_converter.sh
+  263  ./.P2_bash_scripts.sh
+  264  nano ~/.P2_bash_scripts.sh
+  265  nano ~/.P2_bash_converter.sh
+  266  ./.P2_bash_converter.sh 44
+  267  chmod +x ~/.P2_bash_converter.sh
+  268  ./.P2_bash_converter.sh 44
+  269  nano ~/.P2_bash_converter.sh
+  270  ./.P2_bash_converter.sh r
+  271  nano ~/.P2_bash_converter.sh
+  272  cd Desktop
+  273  cd P2
+  274  mkdir Archive_P1
+  275  rmdir Archive_P1
+  276  cd ..
+  277  mkdir Archive_P1
+  278  git init
+  279  cd Archive_P1
+  280  git clone https://zhwangs.github.io/UCSB_Physcis129L/static/docs/P1_B.tar.gz
+  281  tar -xzvf P1_B_tar.gz
+  282  tar -xzvf https://zhwangs.github.io/UCSB_Physcis129L/static/docs/P1_B.tar.gz
+  283  tar -xzvf https://ucsb.instructure.com/files/1543090/download?download_frd=1&verifier=FhMeMSihpreoqGUfyVtuzQlGZPVWieYhapqAOiXY
+  284  tar -xzvf http://ucsb.instructure.com/files/1543090/download?download_frd=1&verifier=FhMeMSihpreoqGUfyVtuzQlGZPVWieYhapqAOiXY
+  285  tar -xzvf p1_basic_unix.tar.gz
+  286  tar -xvf p1_basic_unix.tar.gz
+  287  tar -xzvf p1_basic_unix.tar.gz
+  288  file p1_basic_unix.tar.gz
+  289  ls
+  290  cd Desktop
+  291  cd Archive_P1
+  292  tar -xzvf p1_basic_unix.tar.gz
+  293  git init
+  294  git add .
+  295  git clone https://github.com/commanderhoi/Archive_P1.git
+  296  git add .
+  297  git init
+  298  git add .
+  299  tar -xzvf p1_basic_unix.tar.gz
+  300  git add .
+  301  git add p1_basic_unix
+  302  git commit -m
+  303  git config --global user.name commanderhoi
+  304  git config --global user.email justinianshoe@gmail.com
+  305  git checkout -b main
+  306  git add .
+  307  git commit -m "init"
+  308  git remote add origin https://github.com/commanderhoi/Archive_P1.git
+  309  git push -u origin main
+  310  git checkout -b feature_branch
+  311  echo "Hello, World!" > README.md
+  312  git add README.md
+  313  git commit -m "Added "Hello World" README"
+  314  git commit -m "readme"
+  315  git push origin main
+  316  git push -u origin main
+  317  git remote add origin https://github.com/commanderhoi/Archive_P1
+  318  git push origin feature_branch
+  319  cd ..
+  320  cd P2
+  321  touch history.txt
+  322  history | tail -n 200 >> history.txt
