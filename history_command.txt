@@ -1,0 +1,246 @@
+    1  pwd
+    2  cd ..
+    3  mkdir zhwang
+    4  ls
+    5  mkdir bin
+    6  mkdir home
+    7  cd home
+    8  mkdir zhwang
+    9  mkdir Desktop
+   10  cd Desktop
+   11  cd ..
+   12  rm Desktop
+   13  rmdir Desktop
+   14  cd zhwang
+   15  mkdir Desktop
+   16  cd Desktoo
+   17  cd Desktop
+   18  mkdir p1_basic_unix
+   19  cd p1_basic_unix
+   20  mkdir src
+   21  mkdirtest
+   22  mkdir test
+   23  mkdir cache
+   24  cd src
+   25  mkdir graphic
+   26  mkdir exe
+   27  mkdir utilities
+   28  cd ..
+   29  cd test
+   30  mkdir basic
+   31  mkdir composite
+   32  cd ..
+   33  cd cache
+   34  mkdir metadata\
+   35  ls
+   36  mkdir data
+   37  mkdir images
+   38  mkdir history
+   39  cd data
+   40  mkdir tables
+   41  mkdir directory_list
+   42  cd ../../
+   43  touch test/basic/test_1.txt test/basic/test_2.txt test/basic/test_3.txt
+   44  echo "Chengsheng Ge$(date)">test/basic/test_1.txt
+   45  cat test/basic/test_1.txt
+   46  ls -l test/basic/test_1.txt > test/basic/test_2.txt
+   47  chmod +x test_1.txt
+   48  chmod +x test/basic/test_1.txt
+   49  ls -l
+   50  ls -l >> test/basic/test_2.txt
+   51  wget https://zhwangs.github.io/UCSB_Physics129L/static/docs/P1_B.tar.gz
+   52  tar -xvzf P1_B.tar.gz
+   53  wget https://zhwangs.github.io/UCSB_Physcis129L/static/docs/P1_B.tar.gz
+   54  tar -xvzf P1_B.tar.gz
+   55  sha256sum P1_B
+   56  mv P1_B/example.sh .
+   57  ls
+   58  mv P1_B/example_1.txt P1_B/demo_1.txt
+   59  mv P1_B/example1.txt P1_B/demo_1.txt
+   60  mv P1_B/example2.txt P1_B/demo_2.txt
+   61  mv P1_B/demo_1.txt src/exe
+   62  mv P1_B/demo_2.txt cache/data/tables
+   63  rm -r P1_B
+   64  ln -s demo_1.txt demo_link
+   65  nano ~/.bashrc
+   66  ls
+   67  grep "statistics" src/exe/demo_1.txt > src/utilities/grep_stat_demo1.txt
+   68  find . -type f -exec grep -H "statistics" {} \; > cache/images/grep_stat_all.txt
+   69  find .  type f -name "*.txt" > test/basic/test_3.txt
+   70  find .  type f -name "*.txt" > test/basic/test3.txt
+   71  find .  type f -name "*.txt" > test/basic/test_3.txt
+   72  find . -type f -name "*.txt" -exec grep -H "statistics" {} \;
+   73  history -n 100 > command_history.txt
+   74  history -n 10 > command_history.txt
+   75  history|tail -n 10>>P1_cmd_history.txt
+   76  history|tail-n 10>>P1_cmd_history.txt
+   77  cat command_history.txt
+   78  history 10
+   79  history > command_history.txt
+   80  history > P1_cmd_history.txt
+   81  tar -czvf p1_baisc_unix.tar.gz /P1_basic_unix
+   82  cd ..
+   83  tar -czvf p1_baisc_unix.tar.gz /P1_basic_unix
+   84  tar -czvf p1_baisc_unix.tar.gz /p1_basic_unix
+   85  cd p1_basic_unix
+   86  tar -czvf p1_baisc_unix.tar.gz p1_basic_unix
+   87  cd ..
+   88  tar -czvf p1_baisc_unix.tar.gz p1_basic_unix
+   89  cd ../../
+   90  mkdir Problem2
+   91  cd Problem2
+   92  git clone https://github.com/ChengshengGe/P2.git
+   93  sudo apt install git
+   94  git clone https://github.com/ChengshengGe/P2.git
+   95  find P2/Problem1 -type f -exec rm {} +
+   96  nano file_remove.sh
+   97  chmod +x file_remove.sh
+   98  source file_remove.sh
+   99  P2/Problem1/electron_scattering_data
+  100  cd P2/Problem1/electron_scattering_data
+  101  nano oddoreven.sh
+  102  chmod +x oddoreven.sh
+  103  source oddoreven.sh
+  104  cd ..
+  105  ls
+  106  rm electron_scattering_data
+  107  rm -r electron_scattering_data
+  108  ls
+  109  git clone https://github.com/ChengshengGe/P2/tree/main/Problem1
+  110  cd ../../
+  111  rm P2
+  112  rm -r P2
+  113  git clone https://github.com/ChengshengGe/P2.git
+  114  find P2/Problem1 -type f -exec rm {} +
+  115  nano file_remove.sh
+  116  chmod +x file_remove.sh
+  117  source file_remove.sh
+  118  cd P2/Problem1/electron_scattering_data
+  119  mkdir odd
+  120  mkdir even
+  121  nano seperate_file.sh
+  122* 
+  123  git clone https://github.com/ChengshengGe/P2.git
+  124  cd ..
+  125  cd ../../
+  126  pwd
+  127  cd ..
+  128  ls
+  129  cd ubuntu
+  130  ls
+  131  cd home
+  132  cd Problem2
+  133  git clone https://github.com/ChengshengGe/P2.git
+  134  find P2/Problem1 -type f -exec rm {} +
+  135  nano file_remove.sh
+  136  chmod +x file_remove.sh
+  137  source file_remove.sh
+  138  mkdir odd
+  139  mkdir even
+  140  nano seperate_file.sh
+  141  git clone https://github.com/ChengshengGe/P2.git
+  142  find P2/Problem1 -type f -exec rm {} +
+  143  nano file_remove.sh
+  144  chmod +x file_remove.sh
+  145  source file_remove.sh
+  146  git clone https://github.com/ChengshengGe/P2.git
+  147  find P2/Problem1 -type f -exec rm {} +
+  148  nano file_remove.sh
+  149  git clone https://github.com/ChengshengGe/P2.git
+  150  find P2/Problem1 -maxdepth 1 -type f -delete
+  151  nano file_remove.sh
+  152  chmod +x file_remove.sh
+  153  source file_remove.sh
+  154  cd P2/Problem1/electron_scattering_data
+  155  mkdir odd
+  156  mkdir even
+  157  nano seperate_file.sh
+  158  chmod +x seperate_file.sh
+  159  ./seperate_file.sh
+  160  cd ../../../
+  161  cd P2
+  162  mkdir Problem_2
+  163  cd Problem_2
+  164  nano decimal_converter.sh
+  165  chmod decimal_converter.sh
+  166  chmod +x decimal_converter.sh
+  167  ./decimal_converter.sh 1234
+  168  cd ../../
+  169  mkdir Archive_P1
+  170  git init
+  171  cd Archive_P1
+  172  git init
+  173  git p1_baisc_unix,tar,gz
+  174  git p1_baisc_unix.tar.gz
+  175  git add p1_baisc_unix.tar.gz
+  176  git checkout -b main
+  177  git add p1_baisc_unix.tar.gz
+  178  git commit -m "Add p1_baisc_unix.tar.gz file"
+  179  git config user.name "ChengshengGe"
+  180  git config user.email "chengshengge@ucsb.com"
+  181  git commit -m "Add p1_baisc_unix.tar.gz file"
+  182  git remote add origin https://github.com/ChengshengGe/Archive_P1.git
+  183  git branch -M main
+  184  git push -u origin main
+  185  git remote add origin https://github.com/ChengshengGe/Archive_P1.git
+  186  git branch -M main
+  187  git push -u origin main
+  188  git remote add origin https://github.com/ChengshengGe/Archive_P1.git
+  189  git branch -M main
+  190  git push -u origin main
+  191  [200~# Create and switch to the feature branch
+  192  git checkout -b feature_branch
+  193  echo "Hello, world!" > README.md
+  194  git add README.md
+  195  git commit -m "Add README file with 'Hello, world\!'"
+  196  git push origin feature_branch
+  197  git checkout main
+  198  git merge feature_branch
+  199  git commit -m "Merge feature_branch into main"
+  200  git push origin main
+  201  git pull origin main
+  202  cd ..
+  203  tar -czvf Problem_2.tar.gz Problem_2
+  204  tar -czvf Archive_2.tar.gz Problem_2
+  205  mkdir Archive_P2
+  206  cd Archive_P2
+  207  git init
+  208  git add Problem_2.tar.gz
+  209  git commit -m "Initial commit of problem set"
+  210  git config user.name "ChengshengGe"
+  211  git config user.email "chengshengge@ucsb.com"
+  212  git remote add origin https://github.com/ChengshengGe/Archive_P2.git
+  213  git push origin main
+  214  git branch -M main
+  215  git push origin main
+  216  git remote add origin https://github.com/ChengshengGe/Archive_P2.git
+  217  git push -u origin main
+  218  git push -f origin main
+  219  git branch
+  220  git checkout
+  221  git push -u origin new-branch
+  222  git remote add origin https://github.com/ChengshengGe/Archive_P2.git
+  223  git branch -M main
+  224  git push -u origin main
+  225  git checkout -b new_branch
+  226  git add .
+  227  git commit -m "New branch"
+  228  git push -u orgin new_branch
+  229  git log
+  230  git remote -v
+  231  git push -u origin new_branch
+  232  cd ../../
+  233  cd Problem2/P2
+  234  git remote add origin https://github.com/ChengshengGe/P2
+  235  git remote -v
+  236  git push -u orgin main
+  237  git push -u origin main
+  238  git add.
+  239  git add .
+  240  git commite -m "This is to commit the change"
+  241  git commit -m "This is to commit the change"
+  242  git config user.name "ChengshengGe"
+  243  git config user.email "chengshengge@ucsb.com"
+  244  git commit -m "This is to commit the change"
+  245  git push origin main
+  246  history > history_command.txt
