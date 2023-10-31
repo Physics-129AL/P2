@@ -1,0 +1,7 @@
+#! /bin/bash
+
+directory_name="$input"
+
+rm -r /directory_name/*
+
+
