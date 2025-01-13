@@ -1,0 +1,200 @@
+  336  git status
+  337  git remote add origin https://github.com/AndrewTrutt/Archive_P1.git
+  338  git push -u origin main
+  339  history | tail -n 20 >> ../p1_basic_unix/P1_cmd_history.txt 
+  340  cd root/Desktop/host
+  341  cd /root/Desktop/host
+  342  clear
+  343  git clone https://github.com/AndrewTrutt/P2.git
+  344  ls
+  345  mv P2 home/Andrew/Desktop
+  346  ls
+  347  cd home/Andrew/Desktop
+  348  ls
+  349  cd P2
+  350  ls
+  351  cd Problem1/
+  352  ls
+  353  find . -maxdepth 1 -type f
+  354  find . -maxdepth 1 -type f | xargs rm -f
+  355  ls
+  356  touch bash_deletefiles.sh
+  357  ls
+  358  cat bash_deletefiles.sh 
+  359  vim bash_deletefiles.sh 
+  360  cat "alias file_remove='find -maxdepth 1 -type f | xargs rm -f' >> bash_deletefiles.sh
+  361  cat > bash_deletefiles.sh 
+  362  rm bash_deletefiles.sh 
+  363  touch bash_deletefiles.sh
+  364  cat > bash_deletefiles.sh 
+  365  chmod +x bash_deletefiles.sh 
+  366  ./bash_deletefiles.sh 
+  367  alias
+  368  ls
+  369  mkdir test
+  370  cd test
+  371  touch blah.txt
+  372  cd ..
+  373  file_remove test
+  374  ls
+  375  rm bash_deletefiles.sh 
+  376  touch bash_deletefiles.sh
+  377  cat > bash_deletefiles.sh 
+  378  ls
+  379  ./ bash_deletefiles.sh 
+  380  ./bash_deletefiles.sh
+  381  chmod -x bash_deletefiles.sh 
+  382  ./bash_deletefiles.sh
+  383  chmod +x bash_deletefiles.sh 
+  384  ./bash_deletefiles.sh
+  385  ls
+  386  ls test
+  387  file_remove(test)
+  388  file_remove test
+  389  cat > bash_deletefiles.sh 
+  390  cat bash_deletefiles.sh 
+  391  cat > bash_deletefiles.sh 
+  392  chmod +x bash_deletefiles.sh 
+  393  ./bash_deletefiles.sh 
+  394  file_remove test
+  395  cat bash_deletefiles.sh 
+  396  type file_remove
+  397  source ./bash_deletefiles.sh 
+  398  type file_remove
+  399  file_remove test
+  400  ls
+  401  cd test
+  402  ls
+  403  cd ../..
+  404  git status
+  405  cd Problem1/
+  406  ls
+  407  cd electron_scattering_data/
+  408  ls
+  409  cd ..
+  410  ls
+  411  touch sortfiles.sh
+  412  cat > sortfiles.sh 
+  413  rm sortfiles.sh 
+  414  touch sortfiles.sh
+  415  cat > sortfiles.sh 
+  416  ls
+  417  cd electron_scattering_data/
+  418  cd ..
+  419  touch file_1.txt
+  420  echo file_1.txt | grep -oE '[0-9]+$
+huh
+
+  421  echo file_1.txt | grep -oE '[0-9]+$'
+  422  echo "file_123.txt"
+  423  echo "file_123.txt" | grep -oE '[0-9]+$'
+  424  echo "file_123.txt" | grep -oE '[0-9]+'
+  425  ls
+  426  rm file_1.txt 
+  427  cat > sortfiles.sh
+  428  chmod +x sortfiles.sh 
+  429  ls
+  430  mv sortfiles.sh electron_scattering_data/
+  431  cd electron_scattering_data/
+  432  ./sortfiles.sh 
+  433  ls
+  434  rmdir even
+  435  rmdir odd
+  436  mv sortfiles.sh ../
+  437  cd ..
+  438  ls
+  439  cat sortfiles.sh
+  440  cat > sortfiles.sh 
+  441  cat sortfiles.sh 
+  442  cat > sortfiles.sh 
+  443  cat > sortfiles.sh 
+  444  cat > sortfiles.sh 
+  445  chmod +x sortfiles.sh 
+  446  mv sortfiles.sh electron_scattering_data/
+  447  cd electron_scattering_data/
+  448  ./sortfiles.sh 
+  449  cat > sortfiles.sh 
+  450  cat > sortfiles.sh 
+  451  ./sortfiles.sh 
+  452  cat > sortfiles.sh 
+  453  ./sortfiles.sh 
+  454  lx
+  455  ls
+  456  ls even
+  457  ls odd
+  458  cd even
+  459  ls odd
+  460  mv * ../
+  461  ls
+  462  cd ..
+  463  ls
+  464  ls even
+  465  ls odd
+  466  cd
+  467  ls
+  468  cd /root/Desktop/host/home/Andrew/Desktop/P2/Problem1/electron_scattering_data/
+  469  ls
+  470  rmdir even
+  471  cd odd
+  472  mv * ../
+  473  rmdir odd
+  474  cd ..
+  475  rmdir odd
+  476  ls
+  477  ./sortfiles.sh 
+  478  ls
+  479  cd even/odd
+  480  ls
+  481  mv * ../
+  482  cd ..
+  483  rmdir odd
+  484  rmdir even
+  485  cd ..
+  486  rmdir even
+  487  ls even
+  488  mv * .//
+  489  mv * ../
+  490  ls
+  491  cd ..
+  492  ls
+  493  cd even
+  494  ls
+  495  cd ..
+  496  ls
+  497  mv even electron_scattering_data/
+  498  cd electron_scattering_data/
+  499  ls
+  500  ls even
+  501  cd even
+  502  mv * ../
+  503  cd ..
+  504  rmdir even
+  505  cat > sortfiles.sh 
+  506  ./sortfiles.sh 
+  507  ls
+  508  cd even
+  509  ls
+  510  cd odd
+  511  cd ../odd
+  512  ls
+  513  mv * ../
+  514  cd ..
+  515  rmdir odd
+  516  rmdir even
+  517  cat > sortfiles.sh 
+  518  ./sortfiles.sh 
+  519  ls
+  520  ls even
+  521  ls odd
+  522  cd ..
+  523  ls
+  524  ls test
+  525  cd ..
+  526  git status
+  527  git add .
+  528  git commit -m "Finished with P2"
+  529  git push origin main
+  530  ls
+  531  cd Problem1
+  532  ls
+  533  history | tail -n 200 >> cmd_history.txt
