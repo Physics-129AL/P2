@@ -1,0 +1,364 @@
+    1  cd /root/Desktop/
+    2  ls
+    3  cd host/
+    4  git config --global user.name ziqi0615
+    5  git config --global user.email ziqilin@ucsb.edu
+    6  git init
+    7  git config --global user.name ziqi0615
+    8  git config --global user.email ziqilin@ucsb.edu
+    9  git checkout -b main
+   10  git add .
+   11  git commit -m "init"
+   12  echo "hello">> hello.txt
+   13  git remote add origin https://github.com/ziqi0615/129L_example.git
+   14  git push -u origin main
+   15  git remote add origin https://github.com/ziqi0615/129L_example.git
+   16  git push -u origin main
+   17  git checkout -b main
+   18  git push -u origin main
+   19  git commit -m "init"
+   20  git add .
+   21  git commit -m "init"
+   22  git push -u origin main
+   23  git remote add origin git branch-m main
+   24  git push -u origin main
+   25  git push --help
+   26  git remote add origin https://github.com/ziqi0615/129L_example.git
+   27  git push -u origin main
+   28  git push -u origin main
+   29  git pull
+   30  git pull
+   31  git push -u origin main
+   32  git fetch origin main
+   33  git push -u origin main
+   34  git push -u origin main --force
+   35  cd /root/Desktop/
+   36  cd host/
+   37  ls
+   38  rm -r '$RECYCLE.BIN'
+   39  ls
+   40  git init
+   41  ls
+   42  git config --global user.name ziqi0615
+   43  git config --global user.email ziqlin@ucsb.edu
+   44  git checkout -b main
+   45  git add .
+   46  git commit -m "init"
+   47  git remote add origin https://github.com/ziqi0615/129L_example.git
+   48  git push -u origin main
+   49  git add src_info.txt
+   50  echo "my password">>src_info.txt
+   51  ls
+   52  cat src_info.txt 
+   53  ls
+   54  cat hello.txt 
+   55  cd
+   56  cd /root
+   57  ls
+   58  cd Desktop/
+   59  ls
+   60  cd host/
+   61  ls
+   62  git commit -m "init"
+   63  git add src_info.txt 
+   64  git commit -m "init"
+   65  git push -u origin main
+   66  ls
+   67  tar
+   68  mkdir p1_basic_unix
+   69  ls
+   70  cd p1_basic_unix/
+   71  ls
+   72  cd
+   73  ls
+   74  cd /root
+   75  ls
+   76  cd Desktop/
+   77  ls
+   78  cd host/
+   79  ls
+   80  ls
+   81  cd P1_B/
+   82  ls
+   83  cd
+   84  cd /root
+   85  cd Desktop/host/
+   86  ls
+   87  cd p1_basic_unix/
+   88  ls
+   89  cd
+   90  cd /root/
+   91  cd Desktop/
+   92  ls
+   93  cd host/
+   94  ls
+   95  cd p1_basic_unix/
+   96  ls
+   97  cd cache/
+   98  ls
+   99  ls
+  100  cd
+  101  cd /root/
+  102  cd Desktop/
+  103  cd host/
+  104  ls
+  105  cd p1_basic_unix/
+  106  ls
+  107  cd test/
+  108  ls
+  109  cd basic/
+  110  ls
+  111  echo " ">>test_1.txt  
+  112  ls
+  113  echo " ">>test_2.txt  
+  114  echo " ">>test_3.txt  
+  115  ls
+  116  echo "ziqilin and today date is 1/14/2025">>test_1.txt
+  117  cat test_1.txt 
+  118  cd
+  119  cd /root/Desktop/host/
+  120  cd p1_basic_unix/
+  121  ls -l
+  122  ls
+  123  cd test/
+  124  cd basic/
+  125  ls -l
+  126  chmod +x test_1.txt
+  127  ls
+  128  cat test_2.txt 
+  129  ls
+  130  cat test_1.txt 
+  131  cd
+  132  cd /root/Desktop/host/
+  133  ls
+  134  cd p1_basic_unix/
+  135  wget P1_B.tar.gz
+  136  /root/Desktop/host/wget P1_B.tar.gz
+  137  wget /root/Desktop/host/P1_B.tar.gz
+  138  ls
+  139  wget /root/Desktop/host/P1_B.tar.gz 
+  140  wget /root/Desktop/host/P1_B.tar.gz -O P1_B.tar.gz
+  141  cp /root/Desktop/host/P1_B.tar.gz /root/Desktop/host/p1_basic_unix/
+  142  ls
+  143  mv /p1_basic_unix/P1_B/example.sh /p1_basic_unix/
+  144  mv /p1_basic_unix/P1_B.tar.gz/example.sh /p1_basic_unix/
+  145  tar -xvzf P1_B.tar.gz -C /p1_basic_unix
+  146  tar -xvzf P1_B.tar.gz 
+  147  ls
+  148  mv /p1_basic_unix/P1_B.tar.gz/example.sh /p1_basic_unix/
+  149  mv /p1_basic_unix/P1_B/example.sh /p1_basic_unix/
+  150  ls
+  151  cd P1_B
+  152  ls
+  153  mv example.sh /p1_basic_unix
+  154  ls
+  155  cd
+  156  ls
+  157  cd /root/Desktop/host/p1_basic_unix/
+  158  ls
+  159  cd P1_B
+  160  ls
+  161  cd
+  162  cd /root/Desktop/host/p1_basic_unix/
+  163  ls
+  164  rm -r P1_B
+  165  ls
+  166  tar -xvzf P1_B.tar.gz 
+  167  ls
+  168  cd P1_B
+  169  ls
+  170  mv example.sh p1_basic_unix
+  171  cd
+  172  cd /root/Desktop/host/p1_basic_unix/
+  173  ls
+  174  cd P1_B
+  175  ls
+  176  cd p1_basic_unix 
+  177  ls
+  178  cd
+  179  cd /root/Desktop/host/p1_basic_unix/
+  180  ls
+  181  rm -r P1_B
+  182  ls
+  183  tar -xvzf P1_B.tar.gz 
+  184  ls
+  185  cd P1_B
+  186  mv P1_B /root/Desktop/host/p1_basic_unix/
+  187  ls
+  188  mv example.sh /root/Desktop/host/p1_basic_unix/
+  189  ls
+  190  cd
+  191  mv example.sh /root/Desktop/host/p1_basic_unix/
+  192  cd /root/Desktop/host/p1_basic_unix/
+  193  ls
+  194  mv example_1.txt /p1_basic_unix/P1_B/demo_1.txt
+  195  mv example_1.txt demo_1.txt
+  196  cd P1_B
+  197  ls
+  198  mv example1.txt demo_1.txt
+  199  ls
+  200  mv example2.txt demo_2.txt
+  201  mv /p1_basic_unix/P1_B/demo_1.txt /p1_basic_unix/src/exe/
+  202  mv /p1_basic_unix/P1_B/demo_1.txt /p1_basic_unix/src/exe
+  203  cd
+  204  cd /root/Desktop/host/p1_basic_unix/
+  205  ls
+  206  cd src
+  207  ls
+  208  cd exe
+  209  ls
+  210  cd
+  211  cd /root/Desktop/host/p1_basic_unix/
+  212  ls
+  213  cd P1_B
+  214  ls
+  215  mv demo_1.txt /root/Desktop/host/p1_basic_unix/src/exe
+  216  mv demo_1.txt /root/Desktop/host/p1_basic_unix/cache/data/tables/
+  217  mv demo_2.txt /root/Desktop/host/p1_basic_unix/cache/data/tables/
+  218  cd
+  219  cd /root/Desktop/host/p1_basic_unix/
+  220  ls
+  221  rm -r P1_B
+  222  ls
+  223  ln -s /p1_basic_unix/demo_1.txt /p1_basic_unix/demo_link
+  224  ln -s /root/Desktop/host/p1_basic_unix/demo_1.txt  /root/Desktop/host/p1_basic_unix/demo_link
+  225  ls
+  226  ls -l
+  227  history >> history.txt
+  228  ls
+  229  cat history.txt 
+  230  ls
+  231  tar -czvf p1_basic_unix.tar.gz /p1_basic_unix
+  232  ls
+  233  sha256sum p1_basic_unix.tar.gz
+  234  ls
+  235  mkdir Archive_P1
+  236  cd Archive_P1/
+  237  git init
+  238  mv p1_basic_unix.tar.gz Archive_P1/
+  239  git commit -m "Add p1_basic_unix.tar.gz"
+  240  mv /root/Desktop/host/p1_basic_unix.tar.gz /root/Desktop/host/Archive_P1/
+  241  ls
+  242  git add p1_basic_unix.tar.gz
+  243  git commit -m "Add P1 archive"
+  244  git branch -M main
+  245  git remote add origin https://github.com/ziqi0615/Archive_P1.gir.git
+  246  git push -u origin main
+  247  sha256sum p1_basic_unix.tar.gz > sha25sum_problem_set.txt
+  248  cat sha25sum_problem_set.txt 
+  249  git add -A && git commit -m 'add hash file' && git push
+  250  cd
+  251  history
+  252  history >>history.txt
+  253  cd /root/Desktop
+  254  cd host/
+  255  history >> P1_cmd_history.txt
+  256  ls
+  257  cd p1_basic_unix/
+  258  ls
+  259  rm -r history.txt 
+  260  git branch -M main
+  261  git push -u origin main
+  262  git commit -m "Add P1 archive"
+  263  git push -u origin main
+  264  git add .
+  265  git push -u origin main
+  266  cd
+  267  cd /root/Desktop/host/
+  268  git clone https://github.com/ziqi0615/P2.git
+  269  ls
+  270  cd P2
+  271  ls
+  272  rm Problem1/*.bin
+  273  ls
+  274  cd Problem1/
+  275  ls
+  276  ls
+  277  ls
+  278  cd
+  279  ls
+  280  rm -r history.txt 
+  281  cd /root/Desktop/host/
+  282  ls
+  283  cd P
+  284  cd P2
+  285  ls
+  286  nano file_remove.sh
+  287  alias file_remove
+  288  echo "alias file_remove='rm -r'" >file_remove
+  289  ls
+  290  vim aaaaa
+  291  nano
+  292  cd Problem1/
+  293  ls
+  294  cd
+  295  cd /root/Desktop/host/
+  296  cd P2
+  297  ls
+  298  cd Problem1/
+  299  ls
+  300  mkdir -p /electron_scattering_data/odd
+  301  mkdir -p /electron_scattering_data/even
+  302  cd electron_scattering_data/
+  303  ls
+  304  cd odd
+  305  mkdir even
+  306  ls
+  307  mkdir odd
+  308  ls
+  309  cd
+  310  cd /root/Desktop/host/P2
+  311  ls
+  312  chmod +x separate_electron_data.sh 
+  313  ls
+  314  ./separate_electron_data.sh 
+  315  ./separate_electron_data.sh 
+  316  ls /
+  317  rm -r Problem1/electron_scattering_data/
+  318  mv /electron_scattering_data/ Problem1
+  319  ls
+  320  cd Problem1/
+  321  ls
+  322  cd electron_scattering_data/
+  323  ls
+  324  cd even/
+  325  ls
+  326  rm -r even/
+  327  rm -r odd/
+  328  cd
+  329  cd /root/Desktop/host/
+  330  cd P2
+  331  cd Problem1/
+  332  ls
+  333  cd
+  334  cd /root/Desktop/host/
+  335  cd P
+  336  cd P2
+  337  ls
+  338  git init
+  339  history >P2_cmd_history.txt
+  340  ls
+  341  git init
+  342  git branch -M main
+  343  git add .
+  344  git commit -m "P2"
+  345  ls
+  346  git remote add origin https://github.com/ziqi0615/P2.git
+  347  git push -u origin main
+  348  cd
+  349  cd /root/Desktop/host/
+  350  ls
+  351  rm -r P1_B
+  352  ls
+  353  tar P2
+  354  tar -czvf P2
+  355  tar -czvf P2.tar.gz /P2
+  356  tar -czvf P2.tar.gz P2
+  357  ls
+  358  sha256sum P2.tar.gz
+  359  mkdir Homework1_Problem2
+  360  cd Homework1_Problem2/
+  361  git init
+  362  cp /root/Desktop/host/P2.tar.gz .
+  363  ls
+  364  history >>history_cmd_P2.txt
