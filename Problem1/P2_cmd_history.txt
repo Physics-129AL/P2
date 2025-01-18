@@ -1,0 +1,31 @@
+  153  git clone https://github.com/maya-maye/P2.git
+  154  cd P2
+  155  rm -rf Problem_1/electron_scattering_data/*
+  156  touch file_remove.sh
+  157  chmod +x file_remove.sh
+  158  cd Problem1/
+  159  cd electron_scattering_data
+  160  touch separate_files.sh
+  161  chmod +x separate_files.sh
+  162  ./separate_files.sh
+  163  cd ..
+  164  ./separate_files.sh
+  165  cd -
+  166  ./separate_files.sh
+  167  ls
+  168  ./separate_files.sh 
+  169  ./separate_files.sh 
+  170  rm -rf Problem_1/*.bin
+  171  cd ..
+  172  cd ..
+  173  rm -rf Problem_1/*.bin
+  174  rm Problem_1/*.bin
+  175  rm -rf /Problem_1/*.bin
+  176  rm -rf /Problem1/electron_scattering_2023-10-04_sample_index_6.bin
+  177  cd Problem1
+  178  ls *.bin
+  179  rm *.bin
+  180  git add .
+  181  git commit -m "furst"
+  182  git push origin main
+  183  history | tail -n 50 >> P2_cmd_history.txt
