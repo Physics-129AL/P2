@@ -1,0 +1,703 @@
+    1  git inti
+    2  git init
+    3  cd /root/Desktop/host
+    4  echo "hello" hello.txt
+    5  echo "hello" >> hello.txt
+    6  git push -u origin main
+    7  git remote add origin https://github.com/Jesson-qi/example.git
+    8  git add .
+    9  git checkout -b main
+   10  git config
+   11  git remote add origin https://github.com/Jesson-qi/example.git
+   12  git remote -v
+   13  git
+   14  git add .
+   15  cd /root/Desktop/host
+   16  git init
+   17  git remote add origin https://github.com/Jesson-qi/example.git
+   18  git checkout -b mian
+   19  git checkout -b main
+   20  echo "hello" >> hello.txt
+   21  git push origin main
+   22  git push -u origin main
+   23  git push -u origin https://github.com/Jesson-qi/example.git
+   24  git branch
+   25  git branch -M main
+   26  git checkout main
+   27  git branch -M main
+   28  git chechout
+   29  git push -u origin main
+   30  git add .
+   31  git commit -m "init"
+   32  git config --global user.name junhangqi
+   33  git config --global user.email junhangqi@ucsb.edu
+   34  git add .
+   35  git commit -m "init"
+   36  git remote add origin git branch -M main
+   37  git remote add origin https://github.com/Jesson-qi/example.git
+   38  git push -u origin main
+   39  git add .
+   40  git init
+   41  cd /root/Desktop/host
+   42  git add >
+   43  git add .
+   44  git commit -m "init"
+   45  git checkout -b main
+   46  git fetch origin
+   47  git status On branch main
+   48  git diff main origin/main
+   49  git pull origin main
+   50  git add .
+   51  git commit -m "init"
+   52  docker pull pgpointcloud/pointcloud
+   53  ls
+   54  docker ps
+   55  git docker pull pgpointcloud/pointcloud
+   56  docker --version
+   57  tar -czvf P129_ps.tar.gz ./P129_ps
+   58  cd /root/Desktop/host/
+   59  ls
+   60  git init
+   61  cd /root/Desktop/host/
+   62  ls
+   63  cd p1_basic-unix
+   64  cd /test/basic
+   65  ls
+   66  cd test
+   67  ls
+   68  cd basic
+   69  echo "" >> test 1.txt
+   70  echo "" >> test 2.txt
+   71  echo "" >> test 3.txt
+   72  ls
+   73  echo "empty" >> test 1.txt
+   74  echo "empty" >> test 2.txt
+   75  echo "empty" >> test 3.txt
+   76  ls
+   77  echo "(empty)" >> test 3.txt
+   78  ls
+   79  echo "empty" >> test_3.txt
+   80  echo "empty" >> test_2.txt
+   81  echo "empty" >> test_1.txt
+   82  ls
+   83  echo "Junhang Qi 2024 Jan 15" >>test_1.txt
+   84  cat test_1.txt
+   85  echo "Junhang Qi 2024 Jan 15" > test_1.txt
+   86  cat test_1.txt
+   87  cat test1.txt > test2.txt
+   88  cat test_1.txt > test_2.txt
+   89  cat test_2.txt
+   90  ls -l
+   91  ls -l
+   92  ls -l > test_3.txt
+   93  cat test_3.txt
+   94  cat test_1.txt
+   95  cat test_2.txt
+   96  cat test_3.txt
+   97  cat test_2.txt
+   98  ls -l > test_3.txt
+   99  cat test_3.txt
+  100  cat test_2.txt
+  101  ls -l >>  test_3.txt
+  102  cat test_3.txt
+  103  ls -l test_1.txt > test_2.txt
+  104  chmod +x test_1.txt
+  105  ls -l test_1.txt > test_2.txt
+  106  cat test_1.txt
+  107  cat test_2.txt
+  108  echo "empty" >> test_2.txt
+  109  echo "empty" >> test_3.txt
+  110  ls -l test_1.txt > test_2.txt
+  111  chmod +x test_1.txt
+  112  ls -l test_1.txt > test_2.txt
+  113  cat test_1.txt
+  114  cat test_2.txt
+  115  cd "/p1_basic-unix"
+  116  cd /host
+  117  cd /root
+  118  cd /Desktop/host/p1_basic_unix
+  119  cd /Desktop
+  120  cd/Desktop/
+  121  cd Desktop/
+  122  cd host/p1_basic_unix
+  123  history >>history.txt
+  124  ls
+  125  cat history.txt 
+  126  mv P1.B/example.sh . 
+  127  mv P1.B.tar/example.sh . 
+  128  tar P1_B.tar.gz 
+  129  ls
+  130  tar -zxvf P1_B.tar.gz 
+  131  mv P1.B/example.sh . 
+  132  mv P1_B/example.sh . 
+  133  ls
+  134  mv "P1_B/example1.txt" "P1_B/demo1.txt"
+  135  mv "P1_B/example1.txt" "P1_B/demo1.txt"
+  136  mv "P1_B/example2.txt" "P1_B/demo2.txt"
+  137  cat P1_B
+  138  mv "P1_Bp1 basic unix/src/exe”/demo1.txt""
+  139  git init
+  140  q
+  141  q.
+  142  igit init
+  143  git init
+  144  cd /root/Desktop/host/
+  145  cd p1_baisc_unix
+  146  cd /p1_baisc_unix
+  147  cd p1_baisc_unix/
+  148  cd
+  149  ls
+  150  git checkout -b main
+  151  ls
+  152  cd /p1_baisc_unix
+  153  git add .
+  154  git init
+  155  cd /root/Desktop/host
+  156  ls
+  157  mv  "/P1_B/demo_1.txt" "/p1_basic_unix/src/exe"
+  158  mv  "/P1_B/demo_1.txt" "/p1_basic_unix/src/exe"
+  159  ps
+  160  ls
+  161  cd p1_baic_unix
+  162  cd p1_basic_unix
+  163  mv  "/P1_B/demo_1.txt" "/p1_basic_unix/src/exe"
+  164  ls
+  165  cd P1_B
+  166  ls
+  167  cd p1_basic_unix
+  168  cd host
+  169  git init
+  170  cd /root/Desktop/host
+  171  cd p1_basic_unix
+  172  mv "/p1_basic-unix/P1_B/demo_1.txt" "/p1_basic_unix?src/exe"
+  173  mv "/p1_basic_unix/P1_B/demo_1.txt" "/p1_basic_unix/src/exe"
+  174  mv "/p1_basic_unix/P1_B/demo_2.txt" "/p1_basic_unix/src/exe"
+  175  mv "/p1 basic unix/P1 B/demo 2.txt" "/p1 basic unix/src/exe"
+  176  ls "/p1 basic unix/P1 B"
+  177  ls "/p1_basic_unix/P1_B"
+  178  mv "/P1 B/demo 2.txt" "/src/exe"
+  179  ls
+  180  mv "/P1_B/demo_2.txt" "/src/exe"
+  181  git init
+  182  cd /root/Desktop/host
+  183  mv demo_1 /p1_baic_unix/src/exe
+  184  mv demo_1.txt /p1_baic_unix/src/exe
+  185  cd /p1_basic_unix
+  186  ls
+  187  cd p1_basic_unix
+  188  mv demo_1.txt p1_baic_unix/src/exe
+  189  mv demo 1.txt p1_baic_unix/src/exe
+  190  mv demo 1.txt p1 baic unix/src/exe
+  191  mv demo 1.txt /p1 baic unix/src/exe
+  192  mv demo 1.txt p1_baic_unix/src/exe
+  193  mv demo 1.txt /p1_baic_unix/src/exe
+  194  mv demo 1.txt /p1_baic_unix/src/exe/
+  195  mv demo 1.txt /src/exe/
+  196  mv demo 1.txt /src/exe
+  197  mv demo 1.txt  ”/p1 basic unix/src/exe”
+  198  mv demo 1.txt  ”p1_basic_unix/src/exee
+  199  mv demo 1.txt /src/exe
+  200  mv demo 1.txt /p1_basic_unix/src/exe
+  201  ls /p1_basic_unix/src/exe
+  202  ls /src/exe
+  203  mv "demo 1.txt" "/p1_basic_unix/src/exe"
+  204  mv demo 1.txt "/p1_basic_unix/src/exe"
+  205  mv "demo_1.txt" "/p1_basic_unix/src/exe"
+  206  mv demo 1.txt /p1_basic_unix/src/exe
+  207  mv demo 1.txt /p1 basic unix/src/exe
+  208  mv demo 1.txt '/p1 basic unix/src/exe'
+  209  mv demo 1.txt "/p1_basic_unix/src/exe/"
+  210  mv demo 1.txt "/src/exe/"
+  211  mv demo 1.txt p1_basic_unix/src/exe/
+  212  mv demo 1.txt p1_basic_unix/src/exe
+  213  mv demo 1.txt src/exe/
+  214  mv "demo 1.txt" src/exe/
+  215  mv demo 1.txt src/exe/
+  216  mv "demo_1.txt" src/exe/
+  217  mv "/p1 basic unix/P1 B/demo 1.txt" "/p1 basic unix/src/exe"
+  218  ls -l "/p1 basic unix/P1 B"
+  219  ls -l "/p1_basic_unix/P1_B"
+  220  ls
+  221  ls -l "p1_basic_unix/P1_B/"
+  222  ls -l "P1_B/"
+  223  mv "P1_B/demo_1.txt" "src/exe/"
+  224  git init
+  225  cd /root//Desktop/host
+  226  cd p1_basic_unix/
+  227  mv "P1_B/demo_1.txt" "src/exe/" 
+  228  ls P1_B
+  229  mv "P1_B/demo_2.txt" "cache/data/tables" 
+  230  ls cache/data/tables
+  231  ls src/exe/
+  232  rm -r "P1_B/"
+  233  ls 
+  234  ln -s "src/exe/demo_1.txt" "demo_link"
+  235  alias 11="ls -1"
+  236  git history
+  237  history
+  238  history | tail -n 10 >> history.txt
+  239  history >> history.txt
+  240  grep "statistics" "demo 1.txt" | tee "src/utilities/grep_stat_demo1.txt"
+  241  grep "statistics" "demo_1.txt" | tee "src/utilities/grep_stat_demo1.txt"
+  242  grep "statistics" demo_1.txt | tee "src/utilities/grep_stat_demo1.txt"
+  243  grep "statistics" "src/exe/demo_1.txt" | tee "src/utilities/grep_stat_demo1.txt"
+  244  grep -r "statistics" "p1_basic_unix/" | tee "/p1 basic unix/cache/images/grep_stat_all.txt"
+  245  grep -r "statistics" "p1_basic_unix" | tee "/p1 basic unix/cache/images/grep_stat_all.txt"
+  246  grep -r "statistics" "/p1_basic_unix" | tee "/p1 basic unix/cache/images/grep_stat_all.txt"
+  247  grep -r "statistics" "/p1 basic unix" | tee "/p1 basic unix/cache/images/grep stat all.txt"
+  248  grep -r "statistics" "p1 basic unix/" | tee "/p1 basic unix/cache/images/grep stat all.txt"
+  249  grep -r "statistics" | tee "/cache/images/grep stat all.txt"
+  250  grep -r "statistics" | tee "cache/images/grep stat all.txt"
+  251  grep "statistics" "src/exe/demo_1.txt" | te
+  252  grep "statistics" "src/exe/demo_1.txt" | tee "src/utilities/grep_stat_demo1.txt"
+  253  grep -r "statistics" | tee "cache/images/grep_stat_all.txt"
+  254  find -type f -name "*.txt" > "test/basic/test_3.txt"
+  255  find -type f -name "*.txt" -exec grep -l "statistics" {} \;
+  256  history | tail -n 5 >> history.txt
+  257  tar -czf "p1 basic unix.tar.gz" "p1_basic_unix/"
+  258  tar -czf "p1 basic unix.tar.gz" "/p1_basic_unix"
+  259  tar -czf "p1 basic unix.tar.gz" "p1_basic_unix"
+  260  cd /root/Desktop/host
+  261  tar -czf "p1 basic unix.tar.gz" "p1_basic_unix/"
+  262  sha256sum "p1 basic unix.tar.gz"
+  263  mkdir Archieve_P1
+  264  git init
+  265  mv checkout -b main
+  266  mv git checkout -b main
+  267  git checkout -b main
+  268  cd Archieve_P1/
+  269  git cheout -b main
+  270  git checkout -b main
+  271  git add "p1_basic_unix.tar.gz"
+  272  ls
+  273  git add "p1 basic unix.tar.gz"
+  274  git commit -m "Initial commit of p1 basic unix.tar.gz"
+  275  git remote add origin https://github.com/Jesson-qi/p1-basic-unix.tar.git
+  276  git push -u origin main
+  277  git init
+  278  cd /root/Desktop/host
+  279  mkdir 1
+  280  git clone https://github.com/Jesson-qi/P2.git
+  281  rm -r P2/Problem1/
+  282  git clone https://github.com/Jesson-qi/P2.git
+  283  rm -f /Problem\ 1/*
+  284  rm -f P2/Problem\ 1/*
+  285  rm -f P2/Problem1/*
+  286  git clone https://github.com/Jesson-qi/P2.git
+  287  git clone https://github.com/Jesson-qi/P2.git
+  288  rm -f P2/Problem1/*
+  289  #!/bin/bash
+  290  alias file_remove='function_file_remove(){
+file_path=$(find . -name["$1"])
+rm -f "file_path/*"
+}; _file_remove'
+  291  file_remove 1
+  292  file_remove "1"
+  293  _file_remove "1"
+  294  source setup_file_remove.sh
+  295  ./bash_file.sh
+  296  #!/bin/bash 
+  297  alias file_remove='function _file_remove() { 
+  if [ -z "$1" ]; then
+    echo "No directory name provided."
+    return 1
+  fi
+  dir_path=$(find . -type d -name "$1" 2>/dev/null | head -n 1)
+
+  if [ -z "$dir_path" ]; then
+    echo "Error: No directory named $1 found in the current path."
+    return 1
+  fi
+  rm -rf "$dir_path"/*
+  echo "All files removed from $dir_path."
+};_file_remove'
+  298  file_remove test_1
+  299  #!/bin/bash
+  300  alias file_remove='function_file_remove(){
+ if[-z "$1"]; then
+  echo "Provide directory name"
+ return 1
+ fi
+ dir_path=$(find . type d -name"$1")
+ if[-z "$dir_path"]; then
+  echo "Error:No directory name $1 found in the current path"
+  return 1
+ fi
+ rm -f "$dir_path"/*
+ echo "all file removed from $dir_path."
+};-file-remove'
+  301  file_remove test_1
+  302  #!/bin/bash
+  303  alias file_remove='function_file_remove(){
+ if[-z "$1"];then
+  echo "Provide directory name"
+ return 1
+ fi
+ dir_path=$(find . type d -name"$1")
+ if[-z "$dir_path"];then
+  echo "Error:No directory name $1 found in the current path"
+  return 1
+ fi
+ rm -f "$dir_path"/*
+ echo "all file removed from $dir_path."
+};-file-remove'
+  304  file_remove test_1
+  305  #!/bin/bash
+  306    if [ -z "$1" ]; then     echo "No directory name provided.";     return 1;   fi
+  307    dir_path=$(find . -type d -name "$1" 2>/dev/null | head -n 1)
+  308    if [ -z "$dir_path" ]; then     echo "Error: No directory named $1 found in the current path.";     return 1;   fi
+  309    rm -rf "$dir_path"/*
+  310  history
+  311  history >> history.txt
+    1  git inti
+    2  git init
+    3  cd /root/Desktop/host
+    4  echo "hello" hello.txt
+    5  echo "hello" >> hello.txt
+    6  git push -u origin main
+    7  git remote add origin https://github.com/Jesson-qi/example.git
+    8  git add .
+    9  git checkout -b main
+   10  git config
+   11  git remote add origin https://github.com/Jesson-qi/example.git
+   12  git remote -v
+   13  git
+   14  git add .
+   15  cd /root/Desktop/host
+   16  git init
+   17  git remote add origin https://github.com/Jesson-qi/example.git
+   18  git checkout -b mian
+   19  git checkout -b main
+   20  echo "hello" >> hello.txt
+   21  git push origin main
+   22  git push -u origin main
+   23  git push -u origin https://github.com/Jesson-qi/example.git
+   24  git branch
+   25  git branch -M main
+   26  git checkout main
+   27  git branch -M main
+   28  git chechout
+   29  git push -u origin main
+   30  git add .
+   31  git commit -m "init"
+   32  git config --global user.name junhangqi
+   33  git config --global user.email junhangqi@ucsb.edu
+   34  git add .
+   35  git commit -m "init"
+   36  git remote add origin git branch -M main
+   37  git remote add origin https://github.com/Jesson-qi/example.git
+   38  git push -u origin main
+   39  git add .
+   40  git init
+   41  cd /root/Desktop/host
+   42  git add >
+   43  git add .
+   44  git commit -m "init"
+   45  git checkout -b main
+   46  git fetch origin
+   47  git status On branch main
+   48  git diff main origin/main
+   49  git pull origin main
+   50  git add .
+   51  git commit -m "init"
+   52  docker pull pgpointcloud/pointcloud
+   53  ls
+   54  docker ps
+   55  git docker pull pgpointcloud/pointcloud
+   56  docker --version
+   57  tar -czvf P129_ps.tar.gz ./P129_ps
+   58  cd /root/Desktop/host/
+   59  ls
+   60  git init
+   61  cd /root/Desktop/host/
+   62  ls
+   63  cd p1_basic-unix
+   64  cd /test/basic
+   65  ls
+   66  cd test
+   67  ls
+   68  cd basic
+   69  echo "" >> test 1.txt
+   70  echo "" >> test 2.txt
+   71  echo "" >> test 3.txt
+   72  ls
+   73  echo "empty" >> test 1.txt
+   74  echo "empty" >> test 2.txt
+   75  echo "empty" >> test 3.txt
+   76  ls
+   77  echo "(empty)" >> test 3.txt
+   78  ls
+   79  echo "empty" >> test_3.txt
+   80  echo "empty" >> test_2.txt
+   81  echo "empty" >> test_1.txt
+   82  ls
+   83  echo "Junhang Qi 2024 Jan 15" >>test_1.txt
+   84  cat test_1.txt
+   85  echo "Junhang Qi 2024 Jan 15" > test_1.txt
+   86  cat test_1.txt
+   87  cat test1.txt > test2.txt
+   88  cat test_1.txt > test_2.txt
+   89  cat test_2.txt
+   90  ls -l
+   91  ls -l
+   92  ls -l > test_3.txt
+   93  cat test_3.txt
+   94  cat test_1.txt
+   95  cat test_2.txt
+   96  cat test_3.txt
+   97  cat test_2.txt
+   98  ls -l > test_3.txt
+   99  cat test_3.txt
+  100  cat test_2.txt
+  101  ls -l >>  test_3.txt
+  102  cat test_3.txt
+  103  ls -l test_1.txt > test_2.txt
+  104  chmod +x test_1.txt
+  105  ls -l test_1.txt > test_2.txt
+  106  cat test_1.txt
+  107  cat test_2.txt
+  108  echo "empty" >> test_2.txt
+  109  echo "empty" >> test_3.txt
+  110  ls -l test_1.txt > test_2.txt
+  111  chmod +x test_1.txt
+  112  ls -l test_1.txt > test_2.txt
+  113  cat test_1.txt
+  114  cat test_2.txt
+  115  cd "/p1_basic-unix"
+  116  cd /host
+  117  cd /root
+  118  cd /Desktop/host/p1_basic_unix
+  119  cd /Desktop
+  120  cd/Desktop/
+  121  cd Desktop/
+  122  cd host/p1_basic_unix
+  123  history >>history.txt
+  124  ls
+  125  cat history.txt 
+  126  mv P1.B/example.sh . 
+  127  mv P1.B.tar/example.sh . 
+  128  tar P1_B.tar.gz 
+  129  ls
+  130  tar -zxvf P1_B.tar.gz 
+  131  mv P1.B/example.sh . 
+  132  mv P1_B/example.sh . 
+  133  ls
+  134  mv "P1_B/example1.txt" "P1_B/demo1.txt"
+  135  mv "P1_B/example1.txt" "P1_B/demo1.txt"
+  136  mv "P1_B/example2.txt" "P1_B/demo2.txt"
+  137  cat P1_B
+  138  mv "P1_Bp1 basic unix/src/exe”/demo1.txt""
+  139  git init
+  140  q
+  141  q.
+  142  igit init
+  143  git init
+  144  cd /root/Desktop/host/
+  145  cd p1_baisc_unix
+  146  cd /p1_baisc_unix
+  147  cd p1_baisc_unix/
+  148  cd
+  149  ls
+  150  git checkout -b main
+  151  ls
+  152  cd /p1_baisc_unix
+  153  git add .
+  154  git init
+  155  cd /root/Desktop/host
+  156  ls
+  157  mv  "/P1_B/demo_1.txt" "/p1_basic_unix/src/exe"
+  158  mv  "/P1_B/demo_1.txt" "/p1_basic_unix/src/exe"
+  159  ps
+  160  ls
+  161  cd p1_baic_unix
+  162  cd p1_basic_unix
+  163  mv  "/P1_B/demo_1.txt" "/p1_basic_unix/src/exe"
+  164  ls
+  165  cd P1_B
+  166  ls
+  167  cd p1_basic_unix
+  168  cd host
+  169  git init
+  170  cd /root/Desktop/host
+  171  cd p1_basic_unix
+  172  mv "/p1_basic-unix/P1_B/demo_1.txt" "/p1_basic_unix?src/exe"
+  173  mv "/p1_basic_unix/P1_B/demo_1.txt" "/p1_basic_unix/src/exe"
+  174  mv "/p1_basic_unix/P1_B/demo_2.txt" "/p1_basic_unix/src/exe"
+  175  mv "/p1 basic unix/P1 B/demo 2.txt" "/p1 basic unix/src/exe"
+  176  ls "/p1 basic unix/P1 B"
+  177  ls "/p1_basic_unix/P1_B"
+  178  mv "/P1 B/demo 2.txt" "/src/exe"
+  179  ls
+  180  mv "/P1_B/demo_2.txt" "/src/exe"
+  181  git init
+  182  cd /root/Desktop/host
+  183  mv demo_1 /p1_baic_unix/src/exe
+  184  mv demo_1.txt /p1_baic_unix/src/exe
+  185  cd /p1_basic_unix
+  186  ls
+  187  cd p1_basic_unix
+  188  mv demo_1.txt p1_baic_unix/src/exe
+  189  mv demo 1.txt p1_baic_unix/src/exe
+  190  mv demo 1.txt p1 baic unix/src/exe
+  191  mv demo 1.txt /p1 baic unix/src/exe
+  192  mv demo 1.txt p1_baic_unix/src/exe
+  193  mv demo 1.txt /p1_baic_unix/src/exe
+  194  mv demo 1.txt /p1_baic_unix/src/exe/
+  195  mv demo 1.txt /src/exe/
+  196  mv demo 1.txt /src/exe
+  197  mv demo 1.txt  ”/p1 basic unix/src/exe”
+  198  mv demo 1.txt  ”p1_basic_unix/src/exee
+  199  mv demo 1.txt /src/exe
+  200  mv demo 1.txt /p1_basic_unix/src/exe
+  201  ls /p1_basic_unix/src/exe
+  202  ls /src/exe
+  203  mv "demo 1.txt" "/p1_basic_unix/src/exe"
+  204  mv demo 1.txt "/p1_basic_unix/src/exe"
+  205  mv "demo_1.txt" "/p1_basic_unix/src/exe"
+  206  mv demo 1.txt /p1_basic_unix/src/exe
+  207  mv demo 1.txt /p1 basic unix/src/exe
+  208  mv demo 1.txt '/p1 basic unix/src/exe'
+  209  mv demo 1.txt "/p1_basic_unix/src/exe/"
+  210  mv demo 1.txt "/src/exe/"
+  211  mv demo 1.txt p1_basic_unix/src/exe/
+  212  mv demo 1.txt p1_basic_unix/src/exe
+  213  mv demo 1.txt src/exe/
+  214  mv "demo 1.txt" src/exe/
+  215  mv demo 1.txt src/exe/
+  216  mv "demo_1.txt" src/exe/
+  217  mv "/p1 basic unix/P1 B/demo 1.txt" "/p1 basic unix/src/exe"
+  218  ls -l "/p1 basic unix/P1 B"
+  219  ls -l "/p1_basic_unix/P1_B"
+  220  ls
+  221  ls -l "p1_basic_unix/P1_B/"
+  222  ls -l "P1_B/"
+  223  mv "P1_B/demo_1.txt" "src/exe/"
+  224  git init
+  225  cd /root//Desktop/host
+  226  cd p1_basic_unix/
+  227  mv "P1_B/demo_1.txt" "src/exe/" 
+  228  ls P1_B
+  229  mv "P1_B/demo_2.txt" "cache/data/tables" 
+  230  ls cache/data/tables
+  231  ls src/exe/
+  232  rm -r "P1_B/"
+  233  ls 
+  234  ln -s "src/exe/demo_1.txt" "demo_link"
+  235  alias 11="ls -1"
+  236  git history
+  237  history
+  238  history | tail -n 10 >> history.txt
+  239  history >> history.txt
+  240  grep "statistics" "demo 1.txt" | tee "src/utilities/grep_stat_demo1.txt"
+  241  grep "statistics" "demo_1.txt" | tee "src/utilities/grep_stat_demo1.txt"
+  242  grep "statistics" demo_1.txt | tee "src/utilities/grep_stat_demo1.txt"
+  243  grep "statistics" "src/exe/demo_1.txt" | tee "src/utilities/grep_stat_demo1.txt"
+  244  grep -r "statistics" "p1_basic_unix/" | tee "/p1 basic unix/cache/images/grep_stat_all.txt"
+  245  grep -r "statistics" "p1_basic_unix" | tee "/p1 basic unix/cache/images/grep_stat_all.txt"
+  246  grep -r "statistics" "/p1_basic_unix" | tee "/p1 basic unix/cache/images/grep_stat_all.txt"
+  247  grep -r "statistics" "/p1 basic unix" | tee "/p1 basic unix/cache/images/grep stat all.txt"
+  248  grep -r "statistics" "p1 basic unix/" | tee "/p1 basic unix/cache/images/grep stat all.txt"
+  249  grep -r "statistics" | tee "/cache/images/grep stat all.txt"
+  250  grep -r "statistics" | tee "cache/images/grep stat all.txt"
+  251  grep "statistics" "src/exe/demo_1.txt" | te
+  252  grep "statistics" "src/exe/demo_1.txt" | tee "src/utilities/grep_stat_demo1.txt"
+  253  grep -r "statistics" | tee "cache/images/grep_stat_all.txt"
+  254  find -type f -name "*.txt" > "test/basic/test_3.txt"
+  255  find -type f -name "*.txt" -exec grep -l "statistics" {} \;
+  256  history | tail -n 5 >> history.txt
+  257  tar -czf "p1 basic unix.tar.gz" "p1_basic_unix/"
+  258  tar -czf "p1 basic unix.tar.gz" "/p1_basic_unix"
+  259  tar -czf "p1 basic unix.tar.gz" "p1_basic_unix"
+  260  cd /root/Desktop/host
+  261  tar -czf "p1 basic unix.tar.gz" "p1_basic_unix/"
+  262  sha256sum "p1 basic unix.tar.gz"
+  263  mkdir Archieve_P1
+  264  git init
+  265  mv checkout -b main
+  266  mv git checkout -b main
+  267  git checkout -b main
+  268  cd Archieve_P1/
+  269  git cheout -b main
+  270  git checkout -b main
+  271  git add "p1_basic_unix.tar.gz"
+  272  ls
+  273  git add "p1 basic unix.tar.gz"
+  274  git commit -m "Initial commit of p1 basic unix.tar.gz"
+  275  git remote add origin https://github.com/Jesson-qi/p1-basic-unix.tar.git
+  276  git push -u origin main
+  277  git init
+  278  cd /root/Desktop/host
+  279  mkdir 1
+  280  git clone https://github.com/Jesson-qi/P2.git
+  281  rm -r P2/Problem1/
+  282  git clone https://github.com/Jesson-qi/P2.git
+  283  rm -f /Problem\ 1/*
+  284  rm -f P2/Problem\ 1/*
+  285  rm -f P2/Problem1/*
+  286  git clone https://github.com/Jesson-qi/P2.git
+  287  git clone https://github.com/Jesson-qi/P2.git
+  288  rm -f P2/Problem1/*
+  289  #!/bin/bash
+  290  alias file_remove='function_file_remove(){
+file_path=$(find . -name["$1"])
+rm -f "file_path/*"
+}; _file_remove'
+  291  file_remove 1
+  292  file_remove "1"
+  293  _file_remove "1"
+  294  source setup_file_remove.sh
+  295  ./bash_file.sh
+  296  #!/bin/bash 
+  297  alias file_remove='function _file_remove() { 
+  if [ -z "$1" ]; then
+    echo "No directory name provided."
+    return 1
+  fi
+  dir_path=$(find . -type d -name "$1" 2>/dev/null | head -n 1)
+
+  if [ -z "$dir_path" ]; then
+    echo "Error: No directory named $1 found in the current path."
+    return 1
+  fi
+  rm -rf "$dir_path"/*
+  echo "All files removed from $dir_path."
+};_file_remove'
+  298  file_remove test_1
+  299  #!/bin/bash
+  300  alias file_remove='function_file_remove(){
+ if[-z "$1"]; then
+  echo "Provide directory name"
+ return 1
+ fi
+ dir_path=$(find . type d -name"$1")
+ if[-z "$dir_path"]; then
+  echo "Error:No directory name $1 found in the current path"
+  return 1
+ fi
+ rm -f "$dir_path"/*
+ echo "all file removed from $dir_path."
+};-file-remove'
+  301  file_remove test_1
+  302  #!/bin/bash
+  303  alias file_remove='function_file_remove(){
+ if[-z "$1"];then
+  echo "Provide directory name"
+ return 1
+ fi
+ dir_path=$(find . type d -name"$1")
+ if[-z "$dir_path"];then
+  echo "Error:No directory name $1 found in the current path"
+  return 1
+ fi
+ rm -f "$dir_path"/*
+ echo "all file removed from $dir_path."
+};-file-remove'
+  304  file_remove test_1
+  305  #!/bin/bash
+  306    if [ -z "$1" ]; then     echo "No directory name provided.";     return 1;   fi
+  307    dir_path=$(find . -type d -name "$1" 2>/dev/null | head -n 1)
+  308    if [ -z "$dir_path" ]; then     echo "Error: No directory named $1 found in the current path.";     return 1;   fi
+  309    rm -rf "$dir_path"/*
+  310  history
+  311  history >> history.txt
+  312  history >> history.txt

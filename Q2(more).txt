@@ -1,0 +1,54 @@
+    1  igit init
+    2  cd /root/Desktop/host
+    3  git init
+    4  #!/bin/bash
+    5  alias file_remove='function _file_remove() { 
+    6    if [ -z "$1" ]; then
+    7      echo "No directory name provided."
+    8      return 1
+    9    fi
+   10    dir_path=$(find . -type d -name "$1" 2>/dev/null | head -n 1)
+   11    if [ -z "$dir_path" ]; then
+   12      echo "Error: No directory named $1 found in the current path."
+   13      return 1
+   14    fi
+   15    rm -rf "$dir_path"/*
+   16    echo "All files removed from $dir_path."
+   17  }; _file_remove'
+   18  file_remove test_1
+   19  #!/bin/bash
+   20  cd "P2/Problem1/electron_scattering_data/" || { echo "directory not found"; exit 1; }
+   21  mkdir electron scattering data/odd/
+   22  mkdir electron_scattering_data/odd
+   23  mkdir "electron_scattering_data/odd"
+   24  cd /root/Desktop/host
+   25  #!/bin/bash
+   26  cd /root/Desktop/host/PS1/P2/Problem1/electron_scattering_data || { echo "Directory not found!"; exit 1; }
+   27  #!/bin/bash
+   28  cd /root/Desktop/host/PS1/P2/Problem1/electron_scattering_data || { echo "Directory not found!"; exit 1; }
+   29  #!/bin/bash
+   30  cd /root/Desktop/host/PS1/P2/Problem1/electron_scattering_data || { echo "Directory not found!"; exit 1; }
+   31  cd /root/Desktop/host
+   32  git init
+   33  #! /bin/bash
+   34  cd /root/Desktop/host/PS1/P2/Problem1/electron_scattering_data || { echo "Directory not found!"; exit 1; }
+   35  #!/bin/bash
+   36  cd /root/Desktop/host/P2/Problem1/electron_scattering_data || { echo "Directory not found!"; exit 1; }
+   37  /bin/bash
+   38  mkdir -p odd even
+   39  for file in *; do   index=$(echo "$file" | grep -oE 'index_[0-9]+' | grep -oE '[0-9]+')  ;   if [ -z "$index" ]; then     continue;   fi;   if (( index % 2 == 0 )); then     mv "$file" even/;   else     mv "$file" odd/;   fi; done
+   40  git init
+   41  cd /root/Desktop/host/
+   42  /bin/bash
+   43  cd /root/Desktop/host/P2/Problem1/electron_scattering_data || { echo "Directory not found!"; exit 1; }
+   44  mkdir -p odd even
+   45  for file in *; do   index=$(echo "$file" | grep -oE 'index_[0-9]+' | grep -oE '[0-9]+')  ;   if [ -z "$index" ]; then     continue;   fi;   if (( index % 2 == 0 )); then     mv "$file" even/;   else     mv "$file" odd/;   fi
+   46  #!/bin/bash
+   47  echo 1
+   48  done
+   49  cd /root/Desktop/host/
+   50  #1 /bin/bash
+   51  cd /root/Desktop/host/P2/Problem1/electron_scattering_data || { echo "Directory not found!"; exit 1; }
+   52  mkdir -p odd even
+   53  for file in *; do   index=$(echo "$file" | grep -oE 'index_[0-9]+' | grep -oE '[0-9]+')  ;   if [ -z "$index" ]; then     continue;   fi;   if (( index % 2 == 0 )); then     mv "$file" even/;   else     mv "$file" odd/;   fi; done
+   54  history >> history.txt
