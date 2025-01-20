@@ -1,0 +1,12 @@
+for file in *.bin; do
+	index=$(echo $file | sed -E 's/.*sample_index_([0-9]+)\.bin/\1/')
+	if [[ ! "$index" =~ ^[0-9]+$ ]]; then
+        	echo "Skipping file: $file (no valid index)"
+        	continue
+    	fi
+	if (( index % 2 == 0 )); then
+        	mv "$file" even/      
+	else
+        	mv "$file" odd/   # Move to the "odd" directory
+    	fi
+done
