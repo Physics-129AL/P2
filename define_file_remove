@@ -1,0 +1,1 @@
+# source this file to use the alias command\nalias file_remove='rm -r'

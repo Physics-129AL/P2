@@ -1,0 +1,32 @@
+    1  cd /root
+    2  cd Desktop/
+    3  ls
+    4  cd p1_basic_unix
+    5  ls
+    6  mkdir src
+    7  mkdir test
+    8  mkdir cache
+    9  ls
+   10  git clone https://github.com/feiran-Liu/P2.git
+   11  git clone https://github.com/feiran-Liu/P2.git
+   12  cd P2
+   13  ls
+   14  rm Problem1/*.bin
+   15  cd Problem1/
+   16  ls
+   17  cd
+   18  cd /root/Desktop/host/P2/
+   19  nano file_remove.sh
+   20  alias file_remove
+   21  echo "# source this file to use the alias command\nalias file_remove='rm -r'" > define_file_remove
+   22  chmod +x data.sh
+   23  cd Problem1/electron_scattering_data/
+   24  ls
+   25  cd
+   26  cd /root/Desktop/host/P2/
+   27  ./data.sh 
+   28  cd Problem1/electron_scattering_data/
+   29  ls
+   30  cd
+   31  cd /root/Desktop/host/P2/
+   32  history>> P2_cmd_history.txt
