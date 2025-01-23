@@ -1,0 +1,100 @@
+  267  git clone https://github.com/ahkq/P2.git
+  268  cd PS2
+  269  cd P@
+  270  cd P2
+  271  git remote -v
+  272  cd Problem1
+  273  git rm *
+  274  rm *
+  275  git add .
+  276  git commit -m "Removed data fiels from Problem1 directory"
+  277  git push origin main
+  278  touch file_remove.sh
+  279  code file_remove.sh
+  280  rm file_remove.sh
+  281  ls
+  282  cd ..
+  283  tocuh file_remove.sh
+  284  touch file_remove.sh
+  285  code file_remove.sh
+  286  echo "Dummy file">>dummy.txt Problem1
+  287  cd Problem1
+  288  ls
+  289  cd ..
+  290  ls
+  291  mv dummy.txt Problem/
+  292  mv dummy.txt Problem
+  293  cd Problem
+  294  cd Problem1
+  295  ls
+  296  echo "Dummy file">>dummy.txt
+  297  mv dummy.txt Problem1
+  298  ls
+  299  mv dummy.txt Problem1/
+  300  mv file_remove.sh /P2/
+  301  mv file_remove.sh P2/
+  302  mv file_remove.sh /P2
+  303  cd ..
+  304  ls
+  305  echo "Dummy file">>dummy.txt /Problem1
+  306  echo "Dummy file">>dummy.txt 
+  307  mv dummy.txt /Problem1
+  308  cd Problem1/
+  309  ls
+  310  mv Problem1 dummy.txt
+  311  mv /Problem1 dummy.txt
+  312  cd ..
+  313  chmod +x file_remove.sh
+  314  ./file_remove.sh /Problem1
+  315  ./file_remove.sh /Problem1
+  316  ./file_remove.sh /Problem1/
+  317  ./file_remove.sh Problem1
+  318  cd Problem1/electron_scattering_data
+  319  touch sort_data.sh
+  320  code sort_data.sh
+  321  chmod +x sort_data.sh
+  322  ./sort_files.sh
+  323  ./sort_files.sh .
+  324  ls
+  325  cd ..
+  326  cd ..
+  327  rsync -avz username@remote_host:/path/to/electron_scattering_data/ /path/to/local/electron_scattering_data/
+  328  rsync -avz ahkq@169.231.112.58:/P2/Problem1/electron_scattering_data/ Problem1/electron_scattering_data/
+  329  sudo apt-get update
+  330  sudo apt-get install rsync
+  331  rsync -avz ahkq@169.231.112.58:/P2/Problem1/electron_scattering_data/ Problem1/electron_scattering_data/
+  332  ping 129.231.112.58
+  333  git reset --hard origin/<branch_name>
+  334  git reset --hard origin/main
+  335  ./sort_files.sh
+  336  cd Problem1/electron_scattering_data
+  337  ./sort_files.sh
+  338  ls -l sort_files.sh
+  339  chmod +x sort_data.sh
+  340  ./sort_data.sh
+  341  ls -l sort_data.sh
+  342  cd electron_scattering_data
+  343  cd electron_scattering_data/
+  344  ./sort_data.sh
+  345  chmod +x sort_data.sh
+  346  ./sort_data.sh
+  347  rm -r 'electron scattering data'
+  348  git add .
+  349  git commit -m "Sorted files in electron_scattering_data directory"
+  350  git push origin main
+  351  cd ..
+  352  cd ..
+  353  ls
+  354  git add.
+  355  git add file_remove.sh
+  356  git commit -m "Added file_remove.sh"
+  357  git push origin main
+  358  cd /Problem1/electron_scattering_data
+  359  cd Problem1/electron_scattering_data
+  360  ls
+  361  git add .
+  362  git commit -m "Updated sort_data.sh"
+  363  git push origin main
+  364  cd ..
+  365  cd ..
+  366  history | tail -n 100 >> problem2_cmd_history.txt
